@@ -3,10 +3,18 @@
 survey rampage_halle -title "Rampage Halle"
     # big ramp over cave 4 
 
+  input rampage_halle-1p.th2
+
+  map m-all-p -projection plan
+    rampage_halle-1p
+  endmap
+  
   centerline
     date 2021.07.13 
     team "Tanguy Racine" dog notes
-    team "Attila" insts
+    team "Attila Szórádi" insts
+    explo-team "Tanguy Racine" "Thomas Weigner"
+    explo-team "Attila Szórádi"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

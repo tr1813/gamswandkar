@@ -251,6 +251,18 @@ enddef;
       thdraw Path withcolor(0.95,0.75,0.5) dashed evenly scaled (2*optical_zoom);
     enddef;
 
+    def l_u_underlaybis_MY (expr Path)=
+      T:=identity;
+      pickup PenA;
+      thdraw Path withcolor(0.75,0.95,0.5) dashed evenly scaled (2*optical_zoom);
+    enddef;
+
+    def l_u_overlaybis_MY (expr P)=
+    T:=identity;
+    pickup PenA;
+    thdraw P withcolor (0.75,0.95,0.5);
+    enddef;
+
     def l_u_mine_MY (expr Path)=
       T:=identity;
       pickup PenA;
@@ -315,15 +327,26 @@ enddef;
       pickup PenC;
       p := (0,-0.15u)--(0,0.15u);
       forever:
+          t0 := arctime (cas + 0*mojkrok) of P;
           t1 := arctime (cas + mojkrok/6) of P;
           t2 := arctime (cas + mojkrok*2/6) of P;
           t3 := arctime (cas + mojkrok*3/6) of P;
+          t4 := arctime (cas + mojkrok*4/6) of P;
           t5 := arctime (cas + mojkrok*5/6) of P;
+          t6 := arctime (cas + mojkrok*1) of P;
 
           q := subpath(t1,t3) of P;
           p := (point t5 of P + .45u * unitvector(thdir(P,t5) rotated -90))--(point t5 of P + .2u * unitvector(thdir(P,t5) rotated -90));
-          
-        #thdraw  (point t of P + .25u * unitvector(thdir(P,t) rotated -90))  withcolor(0,0.7,0.9);
+
+        
+        thclean(point t0 of P) -- (point t1 of P) --(point t2 of P) --(point t3 of P) --(point t4 of P) --(point t5 of P) --(point t6 of P) --  
+        ((point t6 of P) + 0.5u * unitvector(thdir(P,t6)) rotated -90) -- 
+        ((point t5 of P) + 0.5u * unitvector(thdir(P,t5)) rotated -90) -- 
+        ((point t4 of P) + 0.5u * unitvector(thdir(P,t5)) rotated -90) -- 
+        ((point t3 of P) + 0.5u * unitvector(thdir(P,t3)) rotated -90) -- 
+        ((point t2 of P) + 0.5u * unitvector(thdir(P,t2)) rotated -90) -- 
+        ((point t1 of P) + 0.5u * unitvector(thdir(P,t1)) rotated -90) -- 
+        ((point t0 of P) + 0.5u * unitvector(thdir(P,t0)) rotated -90) -- cycle;
         thdraw q shifted ( .3u * unitvector(thdir(P,t2) rotated -90)) withcolor(0,0.7,0.9);
         thdraw p  withcolor(0,0.7,0.9);
 
@@ -338,6 +361,77 @@ enddef;
     #### TYPES INSIDE A PASSAGE
     
     # EXPOSURE OF BEDROCK
+
+    def l_u_bigpit_MY (expr P) =
+  T:=identity;
+  laenge:= arclength P;
+  symsize:=adjust_step(laenge,0.5u);
+  triangle_width:=symsize/2;
+  cur:=(symsize-triangle_width)/2;
+  thdraw P withpen PenC;
+  pickup PenC;
+  forever:
+    t1 := arctime (cur) of P;
+    t  := arctime (cur + triangle_width/2) of P;
+    t2 := arctime (cur + triangle_width) of P;
+
+      thfill (subpath (t1,t2) of P) --
+        ((point t of P) + symsize/1.8 * unitvector(thdir(P,t) rotated 90)) --
+        cycle;
+
+      thdraw (point t2 of P) --((point t of P) + symsize/1.8 * unitvector(thdir(P,t) rotated 90)) --
+        (point t1 of P);
+    cur := cur + symsize;
+    exitif cur > laenge - (1*symsize/3); % for rounding errors
+    t1:=arctime (cur) of P;
+  endfor;
+
+enddef;
+
+   def l_u_wallbigpit_MY (expr P) =
+      T:=identity;
+      laenge:= arclength P;
+      symsize:=adjust_step(laenge,0.5u);
+      ministep:=symsize/5;
+      cur:=0;
+      pickup PenC;
+      forever:
+        t0 := arctime (cur) of P;
+        t1 := arctime (cur+ministep) of P;
+        t2 := arctime (cur+2*ministep) of P;
+        t3a := arctime (cur+3*ministep) of P;
+        t4 := arctime (cur+4*ministep) of P;
+        t5 := arctime (cur+5*ministep) of P;
+
+        thclean (subpath (t5,t0) of P) -- ((point t0 of P) + symsize/2 * unitvector(thdir(P,t0) rotated 90)) ..
+        ((point t1 of P) + symsize/4 * unitvector(thdir(P,t1) rotated 90)) .. 
+        ((point t2 of P) + symsize/4 * unitvector(thdir(P,t2) rotated 90)) ..
+        ((point t3a of P) + symsize/4 * unitvector(thdir(P,t3a) rotated 90)) ..
+        ((point t4 of P) + symsize/4 * unitvector(thdir(P,t4) rotated 90)) ..
+        ((point t5 of P) + symsize/4 * unitvector(thdir(P,t5) rotated 90))--cycle;
+
+        thdraw ((point t0 of P) + symsize/4 * unitvector(thdir(P,t0) rotated 90)) ..
+        ((point t1 of P) + symsize/4 * unitvector(thdir(P,t1) rotated 90)) .. 
+        ((point t2 of P) + symsize/4 * unitvector(thdir(P,t2) rotated 90)) ..
+        ((point t3a of P) + symsize/4 * unitvector(thdir(P,t3a) rotated 90)) ..
+        ((point t4 of P) + symsize/4 * unitvector(thdir(P,t4) rotated 90)) ..
+        ((point t5 of P) + symsize/4 * unitvector(thdir(P,t5) rotated 90));
+
+        thfill ((point t2 of P) + symsize/4 * unitvector(thdir(P,t2) rotated 90)) -- 
+        ((point t3a of P) + 3/4*symsize * unitvector(thdir(P,t3a) rotated 90)) -- 
+        ((point t4 of P) + symsize/4 * unitvector(thdir(P,t4) rotated 90)) .. 
+        ((point t3a of P) + symsize/4 * unitvector(thdir(P,t3a) rotated 90)) .. cycle withpen PenC;
+
+        thdraw ((point t2 of P) + symsize/4 * unitvector(thdir(P,t2) rotated 90)) -- 
+        ((point t3a of P) + 3/4*symsize * unitvector(thdir(P,t3a) rotated 90)) -- 
+        ((point t4 of P) + symsize/4 * unitvector(thdir(P,t4) rotated 90)) withpen PenC;
+        
+        cur := cur + symsize;
+        exitif cur > laenge - (1*symsize/3); % for rounding errors
+      endfor;
+      pickup PenA;
+      thdraw P;
+    enddef;
     
     def l_u_texture_MY (expr P)=
       T:=identity;
@@ -777,6 +871,10 @@ enddef;
     initsymbol("l_wall_ice_MY");
     initsymbol("l_wall_flowstone_MY");
     initsymbol("l_u_overlay_MY");
+    initsymbol("l_u_underlaybis_MY");
+    initsymbol("l_u_overlaybis_MY");
+    initsymbol("l_u_bigpit_MY");
+    initsymbol("l_u_wallbigpit_MY");
     initsymbol("l_u_mine_MY");
     initsymbol("l_u_underlay_MY");
     initsymbol("l_u_fault_MY");

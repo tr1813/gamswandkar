@@ -6,7 +6,7 @@ export model -o outputs/gamswandkar.kml
 input layouts/detailed-p.thl
 
 # select the map of interest
-#select m-all-p@gamswandkar
+select m-all-p@gamswandkar
 # select the layout of interest
 
 layout local-p

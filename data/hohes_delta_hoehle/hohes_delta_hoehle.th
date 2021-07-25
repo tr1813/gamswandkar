@@ -2,10 +2,24 @@
 
 survey hohes_delta_hoehle -title "hohes-delta-hoehle"
     # calibration cave
-    
+  
+  input hohes_delta_hoehle-1p.th2
+
+  map m-all-p -projection plan
+    hohes_delta_hoehle-1p
+  endmap
+
   centerline
     date 2021.07.13 
-    team "Tanguy Racine" 
+    team "Tanguy Racine" notes dog
+    team "Attila Szórádi" insts
+
+    explo-team "Tanguy Racine"
+    explo-team "Attila Szórádi"
+    explo-team "Thomas Weigner"
+    explo-team "Ferenc Kovács"
+    explo-team "Csaba Köblös"
+    
     units length meters
     units compass clino degrees
     data normal from to length compass clino

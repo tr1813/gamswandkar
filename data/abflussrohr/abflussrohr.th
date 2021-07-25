@@ -1,11 +1,17 @@
 # 2021.07.17 created by TopoDroid v 5.1.40
 
 survey abflussrohr -title "Abflussrohr"
-    # snow plug 
+    # snow plug, leading to small canyon heading SW, ending in too narrow/too low rift.
 
   centerline
-    date 2021.07.17 
-    # team Tanguy Racine 
+    # metadata
+    date 2021.07.17
+    explo-date 2021.07.17
+    explo-team "Tanguy Racine"
+    explo-team "Chloe Snowling"
+    team "Tanguy Racine" insts
+    team "Chloe Snowling" notes dog
+
     units length meters
     units compass clino degrees
     data normal from to length compass clino
