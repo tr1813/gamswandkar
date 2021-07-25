@@ -3,19 +3,26 @@
 survey gamswandkluft -title "gamswandkluft"
     # fault controlled cave 
 
-  # input "gamswandkluft-1p.th2"
+   input "gamswandkluft-1p.th2"
   # input "gamswandkluft-1s.th2"
 
-  # map m1p -projection plan
-  #   gamswandkluft-1p
-  # endmap
+   map m-all-p -projection plan
+     gamswandkluft-1p
+   endmap
+
   # map m1s -projection extended
   #   gamswandkluft-1s
   # endmap
 
   centerline
+   # meta-data
     date 2021.07.13 
-    # team Tanguy Racine 
+    explo-date 2021.07.13
+    team "Tanguy Racine" notes dog
+    team "Attila Szórádi" insts
+    explo-team "Tanguy Racine"
+    explo-team "Attila Szórádi"
+
     units length meters
     units compass clino degrees
     data normal from to length compass clino

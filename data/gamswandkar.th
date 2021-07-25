@@ -1,7 +1,7 @@
 ### SURVEY FILE FOR CVES DICOVERED IN THE gamswandkar RE
 
 
-survey gamswandkar
+survey gamswandkar -title "Gamswandkar Cave Survey Project"
 
 # surveyed
 input gamswandkluft/gamswandkluft.th
@@ -64,5 +64,7 @@ map m-all-p
 	m-all-p@marco_polo_schacht
 	m-all-p@rampage_halle
 	m-all-p@hohes_delta_hoehle
+	m-all-p@gamswandkluft
+	m-all-p@hraeswelgr
 endmap
 endsurvey

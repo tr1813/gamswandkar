@@ -1,13 +1,26 @@
 # 2021.07.13 created by TopoDroid v 5.1.40
 
 survey hraeswelgr -title "hraeswelgr"
-    # cave of cold wind 
+    # cave of cold wind ending at draughting dig - very promising!!
 
-
-
+    input hraeswelgr-1p.th2
+    
+    map m-all-p -projection plan
+      hraeswelgr-1p
+    endmap
   centerline
+    # metadata
     date 2021.07.13 
-    # team Tanguy Racine 
+    team "Tanguy Racine"
+    team "Attila Szórádi"
+
+    explo-date 2021.07.12
+    explo-team "Attila Szórádi"
+    explo-team "Tanguy Racine"
+    explo-team "Ferenc Kovács"
+    explo-team "Thomas Weigner"
+    explo-team "Csaba Köblös"
+
     units length meters
     units compass clino degrees
     data normal from to length compass clino

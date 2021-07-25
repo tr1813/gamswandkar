@@ -5,6 +5,8 @@ encoding  utf-8
 
 scrap hohes_delta_hoehle-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
+point 616.5298 759.5604 label -align r -scale s -text "<bf>Hohes-Delta-Hoehle<br>1567/NEU"
+point 575.014 775.0804 entrance -orientation 220
 point 377.45 614.88 station -name 0
 point 308.7 569.2 station -name 1
 point 234.78 421.83 station -name 2
@@ -401,7 +403,7 @@ line wall
   155.8651 500.021 157.5321 505.8555 157.5321 505.8555
 endline
 
-line wall 
+line u:wallstep_MY -outline out
   404.3118 588.7865
   417.2781 604.6996
   434.9594 610.004
@@ -416,7 +418,7 @@ line wall
   542.2258 688.9804 546.9408 696.0529 546.9408 696.0529
 endline
 
-line wall 
+line u:wallstep_MY -outline out
   504.5057 789.1742
   504.5057 789.1742 494.4863 798.6043 488.5926 793.8892
   482.6988 789.1742 471.5007 777.9761 467.9644 774.4398

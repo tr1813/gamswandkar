@@ -12,6 +12,7 @@ select m-all-p@gamswandkar
 layout local-p
 	copy detailed-p
 	scale 1 200
+	symbol-show point label
 endlayout
 
 export map -o outputs/gamswandkar-p.pdf -projection plan -layout local-p
