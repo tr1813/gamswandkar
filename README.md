@@ -9,14 +9,17 @@ The data presented herein was collected starting July 2021, as part of the Hell'
 ## How to contribute
 
 The cave survey data is stored as plain text files under [Therion] format.
-Each cave survey data, with map definitions and meta-data about explorers and surveyors can be found at `Cave/Cave.th`.
-Sketches made in-cave are saved as respective plan/extended elevation scraps in the relevant folders e.g., `Cave/Cave-1p.xvi`.
-Refined drawings are made using (https://inkscape.org)[Inkscape] and the (https://github.com/speleo3/inkscape-speleo)[inkscape-speleo extension], which allows the graphics software to open Therion `.th2` files. e.g., `Cave/Cave-1p.th2`.
-Most cave survey data was generated using the Android-app ()[Topodroid] or ()[SexyTopo]
 
-Specific new layout definition files e.g., `detailed-p.thl` are located under the `layouts/` directory.
-
-## 
++ Each cave survey data, with map definitions and meta-data about explorers and surveyors can be found at `Cave/Cave.th`.
++ Sketches made in-cave are saved as respective plan/extended elevation scraps in the relevant folders e.g., `Cave/Cave-1p.xvi`.
++ Refined drawings are made using [Inkscape] and the [inkscape-speleo extension](https://github.com/speleo3/inkscape-speleo), which allows the graphics software to open Therion `.th2` files. e.g., `Cave/Cave-1p.th2`.
++ Specific new layout definition files e.g., `detailed-p.thl` are located under the `layouts/` directory.
 
 
-[Therion] : https://therion.speleo.sk
+Most cave survey data was generated using the Android-apps [Topodroid] or [SexyTopo].
+
+
+[Therion]: https://therion.speleo.sk
+[Inkscape]: https://inkscape.org
+[SexyTopo]: https://play.google.com/store/apps/details?id=org.hwyl.sexytopo&hl=de_AT&gl=US
+[Topodroid]: https://play.google.com/store/apps/details?id=com.topodroid.DistoX&hl=de_AT&gl=US
