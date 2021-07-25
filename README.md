@@ -8,6 +8,7 @@ The data presented herein was collected starting July 2021, as part of the Hell'
 
 ## How to contribute
 
+### Structure of the repository
 The cave survey data is stored as plain text files under [Therion] format.
 
 + Each cave survey data, with map definitions and meta-data about explorers and surveyors can be found at `Cave/Cave.th`.
@@ -18,8 +19,21 @@ The cave survey data is stored as plain text files under [Therion] format.
 
 Most cave survey data was generated using the Android-apps [Topodroid] or [SexyTopo].
 
+### Prerequisites
+To work on the files, you will need to install 
++ [Therion], the main package, which reads plain text data and drawing files to compile, among other things the pretty maps.
++ [Survex], used by Therion to produce .3d files)
++ [Inkscape] and its extensions.
+
+[VSCode] and this [Therion extension], developed by GitHub contributor [rhyst]) offer very nice code completion and syntax highlighting capabilities.
+
 
 [Therion]: https://therion.speleo.sk
 [Inkscape]: https://inkscape.org
 [SexyTopo]: https://play.google.com/store/apps/details?id=org.hwyl.sexytopo&hl=de_AT&gl=US
 [Topodroid]: https://play.google.com/store/apps/details?id=com.topodroid.DistoX&hl=de_AT&gl=US
+[VSCode]: https://code.visualstudio.com/Download
+[Therion extension]: https://marketplace.visualstudio.com/items?itemName=rhystyers.therion
+[Survex]: https://survex.com/download.html
+[rhyst]: https://github.com/rhyst
+
