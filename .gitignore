@@ -352,7 +352,7 @@ venv.bak/
 outputs/*
 **/scratch/
 
-thTMPDIR/
+*thTMPDIR/
 *.qgz
 
 **/scratch/
