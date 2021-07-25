@@ -1,4 +1,4 @@
-source gamswandkar.th
+source data/gamswandkar.th
 
 export model -o outputs/gamswandkar.3d -fmt survex
 export model -o outputs/gamswandkar.kml

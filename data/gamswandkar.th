@@ -4,28 +4,28 @@
 survey gamswandkar
 
 # surveyed
-input data/gamswandkluft/gamswandkluft.th
-input data/hohes_delta_hoehle/hohes_delta_hoehle.th
-input data/hraeswelgr/hraeswelgr.th   # promising dig at the end.
-input data/rampage_halle/rampage_halle.th 
-input data/gurgeltest_hoehle/gurgeltest_hoehle.th
-input data/gurgeltest_hoehle_III/gurgeltest_hoehle_III.th
-input data/halbmond_schacht/halbmond_schacht.th
-input data/marco_polo_schacht/marco_polo_schacht.th
-input data/abflussrohr/abflussrohr.th
-input data/ballonschacht/ballonschacht.th
-input data/gamswandschacht/gamswandschacht.th
+input gamswandkluft/gamswandkluft.th
+input hohes_delta_hoehle/hohes_delta_hoehle.th
+input hraeswelgr/hraeswelgr.th   # promising dig at the end.
+input rampage_halle/rampage_halle.th 
+input gurgeltest_hoehle/gurgeltest_hoehle.th
+input gurgeltest_hoehle_III/gurgeltest_hoehle_III.th
+input halbmond_schacht/halbmond_schacht.th
+input marco_polo_schacht/marco_polo_schacht.th
+input abflussrohr/abflussrohr.th
+input ballonschacht/ballonschacht.th
+input gamswandschacht/gamswandschacht.th
 
 # not yet surveyed
-input data/cave_3/cave_3.th
-input data/cave_6/cave_6.th
-input data/cave_7/cave_7.th
-input data/cave_10/cave_10.th
-input data/cave_11/cave_11.th
-input data/cave_16/cave_16.th
-input data/cave_19/cave_19.th
-input data/cave_22/cave_22.th
-input data/cave_21/cave_21.th
+input cave_3/cave_3.th
+input cave_6/cave_6.th
+input cave_7/cave_7.th
+input cave_10/cave_10.th
+input cave_11/cave_11.th
+input cave_16/cave_16.th
+input cave_19/cave_19.th
+input cave_22/cave_22.th
+input cave_21/cave_21.th
 
 centreline
 	cs lat-long
