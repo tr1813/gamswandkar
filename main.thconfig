@@ -1,0 +1,19 @@
+source gamswandkar.th
+
+export model -o outputs/gamswandkar.3d -fmt survex
+export model -o outputs/gamswandkar.kml
+
+input layouts/detailed-p.thl
+
+# select the map of interest
+#select m-all-p@gamswandkar
+# select the layout of interest
+
+layout local-p
+	copy detailed-p
+	scale 1 200
+endlayout
+
+export map -o outputs/gamswandkar-p.pdf -projection plan -layout local-p
+
+export model -o outputs/gamswandar-esri -fmt esri

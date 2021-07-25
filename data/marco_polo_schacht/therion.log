@@ -1,0 +1,8 @@
+therion 5.5.0+e2caa7d (2020-05-01)
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: /Users/AchilleTalon/Documents/gamswandkar/data/marco_polo_schacht/marco_polo_schacht.th
+reading ...
+therion: error -- /Users/AchilleTalon/Documents/gamswandkar/data/marco_polo_schacht/marco_polo_schacht.th [3] -- unknown configuration command -- survey

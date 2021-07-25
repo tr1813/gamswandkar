@@ -1,0 +1,66 @@
+### SURVEY FILE FOR CVES DICOVERED IN THE gamswandkar RE
+
+
+survey gamswandkar
+
+# surveyed
+input data/gamswandkluft/gamswandkluft.th
+input data/hohes_delta_hoehle/hohes_delta_hoehle.th
+input data/hraeswelgr/hraeswelgr.th   # promising dig at the end.
+input data/rampage_halle/rampage_halle.th 
+input data/gurgeltest_hoehle/gurgeltest_hoehle.th
+input data/gurgeltest_hoehle_III/gurgeltest_hoehle_III.th
+input data/halbmond_schacht/halbmond_schacht.th
+input data/marco_polo_schacht/marco_polo_schacht.th
+input data/abflussrohr/abflussrohr.th
+input data/ballonschacht/ballonschacht.th
+input data/gamswandschacht/gamswandschacht.th
+
+# not yet surveyed
+input data/cave_3/cave_3.th
+input data/cave_6/cave_6.th
+input data/cave_7/cave_7.th
+input data/cave_10/cave_10.th
+input data/cave_11/cave_11.th
+input data/cave_16/cave_16.th
+input data/cave_19/cave_19.th
+input data/cave_22/cave_22.th
+input data/cave_21/cave_21.th
+
+centreline
+	cs lat-long
+    # ELEVATIONS SAMPLED FROM LASERSCAN 2012
+    fix 1@ballonschacht 47.794109 13.683278 1664.66 # 10 m  deep shaft, rather narrow, some snow at the bottom.
+	fix 0@gamswandkluft 47.793107 13.683071 1678.95 # fault controlled cave, now surveyed
+	fix 0@gamswandschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
+ 	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave  
+ 	fix 0@gurgeltest_hoehle 47.792719 13.684126 1648.85
+ 	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79 
+
+	fix 8@hohes_delta_hoehle 47.79260 13.68344 1669.51 # calibration cave, now surveyed
+	fix 0@hraeswelgr 47.794617 13.682573 1688.11 # windy cave, ending in draughty dig
+	fix 0@rampage_halle 47.790880 13.685578 1534.75 # now surveyed
+	fix 1@abflussrohr 47.7948253 13.683418 1658.76 # elevation estimated, doline with snow and two small branches
+	fix 0@halbmond_schacht 47.790141 13.686027 1499.80 # half-moon shaft in dwarf pine, snow shaft, double entrance.
+	fix 0@marco_polo_schacht 47.793087 13.683571 1663.10 # double entrance cave, only one pitch rigged
+
+
+	## ELEVATIONS AND LOCATION ESTIMATES
+	fix 0@cave_3 47.79281 13.68421 1650 # 8  m shaft next to Gurgeltest cave 
+	fix 0@cave_6 47.79217 13.68419 1618 # shaft 2 on way towards gamswandkarschacht
+	fix 0@cave_7 47.79315 13.68343 1675 # no description yet available
+	fix 0@cave_10 47.79339 13.68524  1620 #
+	fix 0@cave_11 47.79350 13.68509 1625 #
+	fix 0@cave_16 47.79351 13.68275 1695 # double doline with a bridge of rock, filled with snow. elevation estimated
+	fix 0@cave_19 47.79135 13.68341 1660 # elevation is rough estimate, 80 m above gamswandschacht, crevasse or old canyon, blocked from top.
+	fix 0@cave_21 47.79311 13.68364 1667 # in a canyon, shaft 7 m deep, previous keyhole profile.
+	fix 0@cave_22 47.79351 13.68338 1675 # cave with snow and two entrances and a good draught
+endcentreline	
+
+# LIST OF POIs
+# 1-10 POIs, numbered, are caves that are not yet thought promising enough.
+
+map m-all-p
+	m-all-p@marco_polo_schacht
+endmap
+endsurvey

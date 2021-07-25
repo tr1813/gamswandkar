@@ -1,0 +1,9 @@
+survey cave_19
+
+centreline
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    0 . 5.00 0	0
+endcentreline
+endsurvey
