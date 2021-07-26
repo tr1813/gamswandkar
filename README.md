@@ -19,12 +19,13 @@ Most cave survey data was generated using the Android-apps [Topodroid] or [SexyT
 
 ### Prerequisites
 To work on the files, you will need to install:
-+ [Therion], the main package, which reads plain text data and drawing files to compile, among other things the pretty maps.
-+ [Survex], used by Therion to produce .3d files)
++ [Therion], the main package, which reads plain text data and drawing files to compile among other things the pretty maps [full map].
++ [Survex], used by Therion to produce .3d files
 + [Inkscape] and its extensions.
 
 Optionally, you may also install:
-+[VSCode] and its [Therion extension] developed by GitHub contributor [rhyst]). 
++[VSCode]
++ its [Therion extension] developed by GitHub contributor [rhyst]. 
 
 These offer very nifty code completion and syntax highlighting capabilities.
 
@@ -46,4 +47,5 @@ In order to add to the cave drawings, in particular, the overview map of the cav
 [Therion extension]: https://marketplace.visualstudio.com/items?itemName=rhystyers.therion
 [Survex]: https://survex.com/download.html
 [rhyst]: https://github.com/rhyst
+[full map]: https://github.com/tr1813/gamswandkar/blob/9240b1784eed24136aa4d47a432c32c3066d5c6d/outputs/gamswandkar-p.pdf
 

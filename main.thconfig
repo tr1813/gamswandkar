@@ -5,7 +5,7 @@ export model -o outputs/gamswandkar.kml
 
 input layouts/detailed-p.thl
 
-# select the map of interest
+# select the overall map of interest
 select m-all-p@gamswandkar
 # select the layout of interest
 
@@ -17,4 +17,4 @@ endlayout
 
 export map -o outputs/gamswandkar-p.pdf -projection plan -layout local-p
 
-export model -o outputs/gamswandar-esri -fmt esri
+export model -o outputs/gamswandkar-esri -fmt esri
