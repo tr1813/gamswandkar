@@ -958,6 +958,7 @@ endcode
  symbol-colour area sand [85 75 10]
  symbol-colour line border [25 25 25]
  symbol-colour line rock-edge [25 25 25]
+ symbol-colour line border [0 70 90]
  
  ## misc
  symbol-assign point gradient MY

@@ -6,9 +6,25 @@ survey entrance -title "Gamswandschacht Entrance"
     input entrance-p.th2
 
     map m-all-p -projection plan
+      m1p [-60 0 m] none
+      m2p [-30 0 m] none
+      m3p
+      m4p
+    endmap
+
+    map m1p -projection plan # entrance cross-section
       entrance-1p
+    endmap
+
+    map m2p -projection plan # cross-section at -40 m
       entrance-2p
+    endmap
+
+    map m3p -projection plan # map of the main chamber
       entrance-3p
+    endmap
+
+    map m4p -projection plan # map of two pitches below main chamber
       entrance-4p
     endmap
 
