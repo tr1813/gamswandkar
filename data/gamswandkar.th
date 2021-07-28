@@ -32,7 +32,7 @@ centreline
     # ELEVATIONS SAMPLED FROM LASERSCAN 2012
     fix 1@ballonschacht 47.794109 13.683278 1664.66 # 10 m  deep shaft, rather narrow, some snow at the bottom.
 	fix 0@gamswandkluft 47.793107 13.683071 1678.95 # fault controlled cave, now surveyed
-	fix 0@gamswandschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
+	fix 0@entrance.gamswandschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
  	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave  
  	fix 0@gurgeltest_hoehle 47.792719 13.684126 1648.85
  	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79 
@@ -66,5 +66,6 @@ map m-all-p
 	m-all-p@hohes_delta_hoehle
 	m-all-p@gamswandkluft
 	m-all-p@hraeswelgr
+	m-all-p@gamswandschacht
 endmap
 endsurvey

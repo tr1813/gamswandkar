@@ -6392,6 +6392,8 @@
 </Folder>
 <Folder>
 <name><![CDATA[gamswandschacht]]></name>
+<Folder>
+<name><![CDATA[Gamswandschacht Entrance]]></name>
 <Placemark>
 <name>0</name>
 <styleUrl>#ThSurveyLine</styleUrl>
@@ -8504,6 +8506,7 @@
 </coordinates></LineString>
 </MultiGeometry>
 </Placemark>
+</Folder>
 </Folder>
 <Folder>
 <name><![CDATA[cave_3]]></name>
