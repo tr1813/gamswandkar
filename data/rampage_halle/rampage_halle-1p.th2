@@ -13,7 +13,7 @@ line u:wallbigpit_MY
   813.9998 523.056 880.88 459.68 880.88 459.68
 endline
 
-line u:wallstep_MY -outline out
+line u:wallstep -outline out
   883.2768 460.1901
   886.7088 460.5287 889.9275 460.4703 891.357 459.5173
   894.7831 457.2333 945.0325 441.2448 947.8876 440.1028
@@ -25,7 +25,7 @@ line u:wallstep_MY -outline out
   1141.0533 387.3894
 endline
 
-line u:wallstep_MY -outline out
+line u:wallstep -outline out
   917.3648 763.299
   917.3648 763.299 920.1912 745.5332 920.1912 743.1105
   920.1912 740.6879 919.3837 720.0957 918.1724 716.8655

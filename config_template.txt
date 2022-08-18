@@ -16,16 +16,18 @@ layout local-p
     \si \par \size[9]Gamswandkar, Höllengebirge \ss
     \par Koordinaten (WGS84): {x}°E / {y}°N
     \par L: \the\cavelength, H: \the\cavedepth, HE: --, Sh: {z} m
-    \par Vermessung: \the\topoteam
+    \par Vermessung: \the\topoteam{{}} (\the\topodate)
     \par Entwurf und Zeichnung: Tanguy Racine (2022)
     \par LV Höhlenkunde Wien/ NÖ, Vf Höhlenkunde Ebensee}}
 
       \def\maplayout{{
-      \legendbox{{0}}{{\the\numexpr 100+\yscale\relax}}{{N}}{{\customheader}}
-      \legendbox{{-10}}{{\the\numexpr -\yscale\relax}}{{S}}{{\northarrow}}
-      \legendbox{{-10}}{{\the\numexpr -\yscale\relax}}{{N}}{{\scalebar}}
-      \legendbox{{110}}{{\the\numexpr -\yscale\relax}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
-      \legendbox{{110}}{{\the\numexpr -\yscale\relax}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
+      \legendbox{{0}}{{100}}{{NW}}{{\customheader}}
+      \legendbox{{0}}{{70}}{{NW}}{{\size[13]\bf GRUNDRISS}}
+
+      \legendbox{{30}}{{5}}{{S}}{{\northarrow}}
+      \legendbox{{30}}{{3}}{{N}}{{\scalebar}}
+      \legendbox{{90}}{{2}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
+      \legendbox{{90}}{{2}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
 
       }}
   endcode
@@ -36,6 +38,13 @@ layout local-e
   scale 1 500
   symbol-show point label
   symbol-show point station-name
+
+  code tex-map
+    \def\maplayout{{
+    \legendbox{{0}}{{50}}{{N}}{{\size[13]\bf LÄNGSSCHNITT}}
+
+    }}
+  endcode
 endlayout
 
 lang de

@@ -3,6 +3,12 @@
 survey abflussrohr -title "Abflussrohr"
     # snow plug, leading to small canyon heading SW, ending in too narrow/too low rift.
 
+    input abflussrohr-p.th2
+
+    map m-all-p
+      abflussrohr-p
+    endmap
+
   centerline
     # metadata
     date 2021.07.17

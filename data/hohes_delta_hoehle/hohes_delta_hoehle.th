@@ -1,16 +1,17 @@
 # 2021.07.13 created by TopoDroid v 5.1.40
 
-survey hohes_delta_hoehle -title "hohes-delta-hoehle"
+survey hohes_delta_hoehle -title "Hohes-Delta-Hoehle"
     # calibration cave
-  
+
   input hohes_delta_hoehle-1p.th2
 
   map m-all-p -projection plan
+    hohes_delta_hoehle-2p
     hohes_delta_hoehle-1p
   endmap
 
   centerline
-    date 2021.07.13 
+    date 2021.07.13
     team "Tanguy Racine" notes dog
     team "Attila Szórádi" insts
 
@@ -19,7 +20,7 @@ survey hohes_delta_hoehle -title "hohes-delta-hoehle"
     explo-team "Thomas Weigner"
     explo-team "Ferenc Kovács"
     explo-team "Csaba Köblös"
-    
+
     units length meters
     units compass clino degrees
     data normal from to length compass clino
