@@ -68,6 +68,8 @@ layout detailed-p
   ## misc
   symbol-assign point gradient MY
   symbol-assign line contour MY
+  symbol-colour line border [0 70 90]
+
   symbol-assign line pit AUT
   symbol-assign line wall MY
   symbol-assign point breakdown-choke AUT

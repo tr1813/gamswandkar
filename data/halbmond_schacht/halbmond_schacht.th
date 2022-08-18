@@ -1,9 +1,21 @@
 # 2021.07.14 created by TopoDroid v 5.1.40
 
 survey halbmond_schacht -title "Halbmondschacht"
-    # snow/ice cave towards spitzalm 
+    # snow/ice cave towards spitzalm
+
+    input halbmond_schacht-1p.th2
+    input halbmond_schacht-1s.th2
+
+    map m-all-e -projection extended
+      halbmond_schacht-1s
+    endmap
+
+    map m-all-p -projection plan
+      halbmond_schacht-1p
+    endmap
+
   centerline
-    date 2021.07.14 
+    date 2021.07.14
     team "Tanguy Racine" notes dog
     team "Attila Szoradi" insts
     units length meters

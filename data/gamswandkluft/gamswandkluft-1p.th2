@@ -7,7 +7,7 @@ scrap gamswandkluft-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
 point 648.3728 389.6635 label -align tl -scale s -text "<bf>Gamswandkluft<br>1567/NEU"
 point 832.1964 391.7402 entrance -orientation 260
-line u:texture_MY 
+line u:texture 
   657.785 276.825
   657.785 276.825 672.0233 289.4513 673.0354 289.5959
   674.0474 289.7404 684.602 289.1621 687.9274 290.6079

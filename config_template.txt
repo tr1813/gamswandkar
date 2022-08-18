@@ -7,6 +7,7 @@ layout local-p
   copy detailed-p
   symbol-show point label
   symbol-show point station-name
+  scale 1 250
 
   code tex-map
     \def\yscale{{{yscale}}}
@@ -32,6 +33,7 @@ endlayout
 
 layout local-e
   copy detailed-e
+  scale 1 500
   symbol-show point label
   symbol-show point station-name
 endlayout

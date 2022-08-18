@@ -119,7 +119,7 @@ endscrap
 
 scrap entrance-2p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-line u:texture_MY 
+line u:texture 
   5629.91 3264.54
   5624.86 3257.07 5619.23 3247.5 5611.21 3243.76
   5597.36 3237.3 5576.95 3238.04 5562.03 3235.11
@@ -130,38 +130,38 @@ line u:texture_MY
   5446.09 3120.44 5444.67 3103.2 5435.65 3095.79
 endline
 
-line u:texture_MY 
+line u:texture 
   5631.22 3274.4
   5624.15 3274.4 5614.33 3278.03 5611.87 3285.17
 endline
 
-line u:texture_MY 
+line u:texture 
   5570.8 3246.14
   5569.39 3247.54 5568.0 3249.18 5566.2 3250.08
 endline
 
-line u:texture_MY 
+line u:texture 
   5516.28 3203.42
   5511.97 3208.46 5506.53 3212.93 5503.15 3218.61
 endline
 
-line u:texture_MY 
+line u:texture 
   5478.85 3166.62
   5476.89 3182.26 5457.16 3196.31 5445.51 3206.46
 endline
 
-line u:texture_MY 
+line u:texture 
   5451.92 3136.38
   5443.01 3145.3 5434.6 3155.55 5424.22 3162.75
 endline
 
-line u:texture_MY 
+line u:texture 
   5723.18 3265.2
   5705.92 3263.28 5690.42 3253.06 5674.44 3248.22
   5657.71 3243.16 5637.63 3239.81 5622.03 3232.01
 endline
 
-line u:texture_MY 
+line u:texture 
   5626.63 3231.68
   5623.61 3225.54 5613.58 3225.92 5606.48 3225.11
   5604.22 3224.85 5600.33 3226.63 5599.7 3224.45
@@ -172,12 +172,12 @@ line u:texture_MY
   5566.98 3179.05 5544.94 3172.94 5530.03 3158.03
 endline
 
-line u:texture_MY 
+line u:texture 
   5590.5 3188.3
   5590.5 3176.87 5592.38 3163.62 5598.06 3153.47
 endline
 
-line u:texture_MY 
+line u:texture 
   5575.4 3216.56
   5574.63 3215.8 5573.93 3214.98 5573.11 3214.28
   5571.63 3213.0 5570.0 3211.91 5568.5 3210.65
@@ -190,33 +190,33 @@ line u:texture_MY
   5443.88 3097.45 5449.29 3080.34 5454.93 3077.05
 endline
 
-line u:texture_MY 
+line u:texture 
   5433.53 3092.35
   5433.75 3090.16 5433.75 3087.94 5434.18 3085.78
   5435.94 3076.96 5444.04 3063.2 5444.04 3054.24
 endline
 
-line u:texture_MY 
+line u:texture 
   5509.06 3142.96
   5509.06 3134.73 5506.82 3123.49 5510.64 3116.13
 endline
 
-line u:texture_MY 
+line u:texture 
   5558.98 3174.5
   5558.98 3166.15 5558.05 3156.63 5561.93 3148.87
 endline
 
-line u:texture_MY 
+line u:texture 
   5636.48 3229.05
   5636.77 3223.87 5635.4 3210.38 5639.11 3208.02
 endline
 
-line u:texture_MY 
+line u:texture 
   5697.56 3246.14
   5695.68 3260.9 5689.68 3275.53 5689.68 3290.17
 endline
 
-line u:texture_MY 
+line u:texture 
   5708.07 3268.48
   5697.06 3268.48 5686.91 3261.48 5676.35 3259.56
   5672.84 3258.92 5669.26 3258.71 5665.72 3258.2
@@ -224,17 +224,17 @@ line u:texture_MY
   5634.69 3251.87 5622.21 3252.31 5613.14 3248.59
 endline
 
-line u:texture_MY 
+line u:texture 
   5675.89 3236.28
   5675.89 3228.87 5676.09 3221.71 5676.61 3215.28
 endline
 
-line u:texture_MY 
+line u:texture 
   5713.32 3257.31
   5713.32 3248.76 5715.71 3239.86 5719.36 3232.17
 endline
 
-line u:texture_MY 
+line u:texture 
   5536.64 3213.28
   5544.51 3211.22 5553.34 3207.59 5558.46 3200.9
   5560.99 3197.6 5562.39 3193.56 5564.63 3190.05
@@ -242,17 +242,17 @@ line u:texture_MY
   5589.54 3164.95 5590.02 3164.47 5590.5 3163.99
 endline
 
-line u:texture_MY 
+line u:texture 
   5518.25 3191.59
   5521.2 3174.42 5535.11 3160.25 5539.27 3143.61
 endline
 
-line u:texture_MY 
+line u:texture 
   5478.85 3148.21
   5481.0 3132.92 5486.73 3117.57 5486.73 3102.21
 endline
 
-line u:texture_MY 
+line u:texture 
   5647.5 3505.37
   5645.73 3448.27 5637.96 3389.56 5638.26 3332.3
   5638.37 3310.36 5637.83 3288.41 5638.26 3266.47
@@ -260,40 +260,40 @@ line u:texture_MY
   5640.37 3241.56 5639.8 3246.19 5639.58 3247.73
 endline
 
-line u:texture_MY 
+line u:texture 
   5566.96 3511.97
   5567.4 3506.25 5567.16 3500.43 5568.28 3494.8
   5570.92 3481.44 5575.01 3468.41 5578.18 3455.16
   5589.97 3405.97 5603.93 3354.6 5603.93 3303.95
 endline
 
-line u:texture_MY 
+line u:texture 
   5526.02 3358.71
   5526.02 3314.87 5529.98 3269.76 5529.98 3225.93
 endline
 
-line u:texture_MY 
+line u:texture 
   5477.17 3309.83
   5477.17 3260.28 5482.86 3209.02 5493.01 3160.53
 endline
 
-line u:texture_MY 
+line u:texture 
   5709.56 3381.18
   5714.83 3312.58 5722.76 3241.95 5722.76 3173.23
 endline
 
-line u:texture_MY 
+line u:texture 
   5775.58 3284.73
   5775.58 3243.44 5777.47 3200.94 5778.35 3159.69
   5778.77 3139.92 5774.59 3112.31 5784.16 3093.15
 endline
 
-line u:texture_MY 
+line u:texture 
   5794.07 3202.81
   5761.39 3202.81 5728.58 3191.11 5696.16 3190.92
 endline
 
-line u:texture_MY 
+line u:texture 
   5746.53 3296.62
   5739.2 3296.31 5731.82 3296.54 5724.53 3295.7
   5716.08 3294.72 5707.49 3293.84 5699.42 3291.15
@@ -301,13 +301,13 @@ line u:texture_MY
   5665.05 3275.21 5643.3 3274.8 5625.05 3266.23
 endline
 
-line u:texture_MY 
+line u:texture 
   5701.64 3403.64
   5685.15 3401.6 5667.56 3400.76 5651.65 3395.22
   5640.24 3391.24 5629.65 3381.18 5617.13 3381.18
 endline
 
-line u:texture_MY 
+line u:texture 
   5693.71 3514.62
   5677.36 3512.11 5656.92 3510.6 5641.56 3502.73
   5635.83 3499.79 5631.77 3492.1 5624.34 3489.82
@@ -315,13 +315,13 @@ line u:texture_MY
   5612.57 3488.47 5610.83 3487.44 5609.0 3486.73
 endline
 
-line u:texture_MY 
+line u:texture 
   5611.85 3418.17
   5602.14 3414.53 5584.47 3408.04 5577.52 3404.3
   5549.39 3389.15 5523.13 3365.37 5491.32 3357.71
 endline
 
-line u:texture_MY 
+line u:texture 
   5605.25 3361.36
   5602.61 3358.71 5600.06 3355.97 5597.32 3353.43
   5589.35 3346.03 5581.64 3338.3 5573.11 3331.55
@@ -330,7 +330,7 @@ line u:texture_MY
   5483.29 3272.64 5480.59 3270.83 5478.03 3268.86
 endline
 
-line u:texture_MY 
+line u:texture 
   5577.52 3278.12
   5573.56 3277.68 5569.58 3277.38 5565.64 3276.8
   5539.95 3272.99 5515.7 3259.97 5493.77 3247.39
@@ -582,294 +582,294 @@ endscrap
 
 scrap entrance-3p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-line u:texture_MY 
+line u:texture 
   1595.7936 2540.4393
   1633.3417 2553.7628
 endline
 
-line u:texture_MY 
+line u:texture 
   1621.2294 2518.6372
   1607.3003 2559.8189
 endline
 
-line u:texture_MY 
+line u:texture 
   1572.7803 2588.2828
   1612.7508 2601.0007
 endline
 
-line u:texture_MY 
+line u:texture 
   1578.2308 2607.0568
   1592.1599 2559.2133
 endline
 
-line u:texture_MY 
+line u:texture 
   1610.3284 2694.8709
   1655.7494 2706.9832
 endline
 
-line u:texture_MY 
+line u:texture 
   1635.1585 2717.8843
   1642.4259 2679.1249
 endline
 
-line u:texture_MY 
+line u:texture 
   1730.8456 2550.7347
   1768.3937 2560.4245
 endline
 
-line u:texture_MY 
+line u:texture 
   1656.9607 2544.6786
   1710.8603 2553.7628
 endline
 
-line u:texture_MY 
+line u:texture 
   1668.4673 2564.6638
   1679.3684 2522.8765
 endline
 
-line u:texture_MY 
+line u:texture 
   1628.4968 2636.7319
   1690.2694 2651.2667
 endline
 
-line u:texture_MY 
+line u:texture 
   1658.1719 2618.5635
   1648.4821 2658.5341
 endline
 
-line u:texture_MY 
+line u:texture 
   1648.4821 2616.1411
   1627.8912 2702.1383
 endline
 
-line u:texture_MY 
+line u:texture 
   1683.6077 2531.3551
   1663.0168 2608.8737
 endline
 
-line u:texture_MY 
+line u:texture 
   1763.5488 2826.8948
   1776.8723 2782.0794
 endline
 
-line u:texture_MY 
+line u:texture 
   1744.6252 2691.3229
   1771.1757 2597.1114
 endline
 
-line u:texture_MY 
+line u:texture 
   1718.0747 2605.6761
   1772.8886 2621.0925
 endline
 
-line u:texture_MY 
+line u:texture 
   1680.3901 2757.2709
   1721.5005 2765.8356
 endline
 
-line u:texture_MY 
+line u:texture 
   1725.7829 2699.8876
   1712.9358 2752.9886
 endline
 
-line u:texture_MY 
+line u:texture 
   1680.3901 2703.3134
   1733.4911 2714.4475
 endline
 
-line u:texture_MY 
+line u:texture 
   1704.3712 2670.7676
   1691.5241 2728.151
 endline
 
-line u:texture_MY 
+line u:texture 
   1759.1851 2600.5373
   1707.797 2587.6903
 endline
 
-line u:texture_MY 
+line u:texture 
   1753.1898 2551.7186
   1732.6346 2621.949
 endline
 
-line u:texture_MY 
+line u:texture 
   1825.1331 2628.8007
   1837.9802 2583.4079
 endline
 
-line u:texture_MY 
+line u:texture 
   1846.5448 2621.949
   1812.2861 2612.5278
 endline
 
-line u:texture_MY 
+line u:texture 
   1775.458 2758.1274
   1824.2767 2770.9744
 endline
 
-line u:texture_MY 
+line u:texture 
   1807.1473 2798.3814
   1756.6157 2784.6779
 endline
 
-line u:texture_MY 
+line u:texture 
   1799.4391 2762.4097
   1780.5968 2824.9319
 endline
 
-line u:texture_MY 
+line u:texture 
   1793.4438 2698.1746
   1846.5448 2714.4475
 endline
 
-line u:texture_MY 
+line u:texture 
   1814.8555 2652.7818
   1792.5874 2727.2945
 endline
 
-line u:texture_MY 
+line u:texture 
   1847.4013 2679.3323
   1776.3145 2658.7771
 endline
 
-line u:texture_MY 
+line u:texture 
   1896.22 2836.066
   1838.8366 2818.0801
 endline
 
-line u:texture_MY 
+line u:texture 
   1852.5401 2809.5154
   1834.5543 2869.4682
 endline
 
-line u:texture_MY 
+line u:texture 
   1888.5118 2669.9112
   1944.1822 2687.0405
 endline
 
-line u:texture_MY 
+line u:texture 
   1906.4976 2690.4664
   1926.1964 2630.5137
 endline
 
-line u:texture_MY 
+line u:texture 
   1899.6459 2764.1226
   1849.1142 2747.8498
 endline
 
-line u:texture_MY 
+line u:texture 
   1886.7988 2736.7157
   1854.2531 2830.0707
 endline
 
-line u:texture_MY 
+line u:texture 
   1983.5797 2723.0122
   1940.7563 2708.4522
 endline
 
-line u:texture_MY 
+line u:texture 
   1962.168 2725.5816
   1983.5797 2659.6336
 endline
 
-line u:texture_MY 
+line u:texture 
   1932.1916 2871.1811
   1901.3588 2862.6165
 endline
 
-line u:texture_MY 
+line u:texture 
   1906.4976 2884.0282
   1917.6317 2854.0518
 endline
 
-line u:texture_MY 
+line u:texture 
   1929.6222 2818.9366
   1970.7327 2833.4965
 endline
 
-line u:texture_MY 
+line u:texture 
   1958.7421 2798.3814
   1927.0528 2789.8167
 endline
 
-line u:texture_MY 
+line u:texture 
   1939.8998 2831.7836
   1961.3115 2773.5438
 endline
 
-line u:texture_MY 
+line u:texture 
   2003.2785 2836.066
   1986.1491 2880.6023
 endline
 
-line u:texture_MY 
+line u:texture 
   2014.4126 2764.1226
   2032.3984 2721.2993
 endline
 
-line u:texture_MY 
+line u:texture 
   1997.2832 2741.8545
   2047.8148 2759.8403
 endline
 
-line u:texture_MY 
+line u:texture 
   2017.8384 2860.9035
   1968.1633 2847.2
 endline
 
-line u:texture_MY 
+line u:texture 
   2125.7534 2764.1226
   2106.0546 2804.3766
 endline
 
-line u:texture_MY 
+line u:texture 
   2070.9394 2854.0518
   2088.9253 2812.9413
 endline
 
-line u:texture_MY 
+line u:texture 
   2102.6287 2845.4871
   2052.9536 2830.0707
 endline
 
-line u:texture_MY 
+line u:texture 
   2130.8922 2789.8167
   2081.217 2772.6873
 endline
 
-line u:texture_MY 
+line u:texture 
   1932.1916 2634.796
   1882.5165 2778.6826
 endline
 
-line u:texture_MY 
+line u:texture 
   2073.5088 2864.3294
   2120.6146 2755.558
 endline
 
-line u:texture_MY 
+line u:texture 
   2042.676 2716.1604
   1993.8573 2833.4965
   1973.3021 2888.3105
 endline
 
-line u:texture_MY 
+line u:texture 
   1915.9187 2882.3152
   1976.7279 2705.8828
 endline
 
-line u:texture_MY 
+line u:texture 
   1841.406 2604.8196
   1790.8744 2771.8309
 endline
 
-line u:texture_MY 
+line u:texture 
   1687.2418 2777.8261
   1723.2135 2628.8008
   1748.051 2545.7233
 endline
 
-line u:texture_MY 
+line u:texture 
   1608.4468 2529.4504
   1578.4704 2628.8007
 endline
@@ -878,151 +878,151 @@ point 1812.56 2096.24 gradient -orientation 24.76729721782406
 point 1651.73 2183.47 gradient -orientation 58.47160430463977
 point 1615.26 2364.76 gradient -orientation 96.3977571867575
 point 1668.7 2477.74 gradient -orientation 128.794584653869
-line u:texture_MY 
+line u:texture 
   1688.9547 2443.8036
   1688.9547 2443.8036 1675.2513 2410.4014 1673.5383 2400.1238
   1671.8254 2389.8462 1671.8254 2385.5638 1671.8254 2385.5638
 endline
 
-line u:texture_MY 
+line u:texture 
   1707.797 2372.7168
   1707.797 2372.7168 1699.2324 2334.1758 1699.2324 2328.1805
   1699.2324 2322.1852 1702.6582 2293.9218 1702.6582 2293.9218
 endline
 
-line u:texture_MY 
+line u:texture 
   1793.8295 2154.0574
   1793.8295 2154.0574 1739.3242 2195.2391 1729.0288 2213.4076
   1718.7333 2231.576 1710.2547 2264.2792 1710.2547 2264.2792
 endline
 
-line u:texture_MY 
+line u:texture 
   1677.5515 2167.9865
   1722.367 2135.2833
   1735.6905 2129.2272
 endline
 
-line u:texture_MY 
+line u:texture 
   1739.3242 2151.0293
   1739.3242 2151.0293 1777.4779 2123.7767 1780.506 2121.9598
   1783.534 2120.143 1790.8014 2117.1149 1790.8014 2117.1149
 endline
 
-line u:texture_MY 
+line u:texture 
   1779.9004 2145.5788
   1743.5635 2103.1858
 endline
 
-line u:texture_MY 
+line u:texture 
   1625.4687 2390.8525
   1532.2041 2406.5985
 endline
 
-line u:texture_MY 
+line u:texture 
   1607.3003 2260.0399
   1609.1171 2253.9837 1629.708 2202.5065 1629.708 2202.5065
 endline
 
-line u:texture_MY 
+line u:texture 
   1689.8112 2510.6081
   1689.8112 2510.6081 1646.9878 2452.3683 1642.7055 2434.3825
 endline
 
-line u:texture_MY 
+line u:texture 
   1655.5525 2263.9454
   1656.409 2257.9501 1694.95 2200.5668 1694.95 2200.5668
 endline
 
-line u:texture_MY 
+line u:texture 
   1673.5383 2378.7121
   1673.5383 2378.7121 1667.543 2341.884 1669.256 2328.1805
   1670.9689 2314.477 1676.9642 2300.7735 1676.9642 2300.7735
 endline
 
-line u:texture_MY 
+line u:texture 
   1582.7527 2311.0511
   1582.7527 2311.0511 1573.3316 2370.1474 1570.7622 2381.2815
   1568.1928 2392.4156 1568.1928 2391.5591 1568.1928 2394.985
   1568.1928 2398.4108 1575.901 2436.0954 1575.901 2436.0954
 endline
 
-line u:texture_MY 
+line u:texture 
   1622.1502 2467.7847
   1622.1502 2467.7847 1604.1644 2436.9519 1602.4515 2424.9613
 endline
 
-line u:texture_MY 
+line u:texture 
   1593.0303 2492.6223
   1593.0303 2492.6223 1556.2022 2440.3778 1555.3457 2429.2437
   1554.4893 2418.1096 1552.7763 2352.1616 1559.6281 2329.0369
 endline
 
-line u:texture_MY 
+line u:texture 
   1861.9613 2102.9294
   1861.9613 2102.9294 1805.4344 2114.0635 1796.8697 2118.3458
   1788.305 2122.6282 1754.9028 2146.6093 1754.9028 2146.6093
 endline
 
-line u:texture_MY 
+line u:texture 
   1733.4911 2123.4846
   1733.4911 2123.4846 1841.406 2082.3742 1855.1095 2080.6612
   1868.813 2078.9483 1895.3635 2075.5224 1895.3635 2075.5224
 endline
 
-line u:texture_MY 
+line u:texture 
   1736.0605 2164.5951
   1736.0605 2164.5951 1664.9736 2256.2372 1663.2607 2271.6536
   1661.5478 2287.07 1658.1219 2352.1616 1658.1219 2352.1616
 endline
 
-line u:texture_MY 
+line u:texture 
   1597.3127 2305.0558
   1597.3127 2305.0558 1640.1361 2197.9974 1653.8396 2179.1551
   1667.543 2160.3128 1704.3712 2135.4752 1704.3712 2135.4752
 endline
 
-line u:texture_MY 
+line u:texture 
   1640.1361 2469.4977
   1640.1361 2469.4977 1616.155 2411.2579 1614.442 2386.4203
   1612.7291 2361.5827 1628.1455 2297.3476 1628.1455 2297.3476
 endline
 
-line u:texture_MY 
+line u:texture 
   1735.204 2499.4741
   1735.204 2499.4741 1694.95 2443.8036 1690.6677 2406.9755
 endline
 
-line u:texture_MY 
+line u:texture 
   1709.51 2335.0322
   1541.6423 2347.0228
 endline
 
-line u:texture_MY 
+line u:texture 
   1725.7829 2411.2579
   1553.6328 2480.6318
 endline
 
-line u:texture_MY 
+line u:texture 
   1732.6346 2447.2295
   1676.1077 2510.6081
 endline
 
-line u:texture_MY 
+line u:texture 
   1724.0699 2257.9501
   1598.1691 2238.2513
 endline
 
-line u:texture_MY 
+line u:texture 
   1757.4722 2187.7197
   1652.1266 2133.7623
 endline
 
-line u:texture_MY 
+line u:texture 
   1850.8272 2108.0682
   1839.6931 2070.3836
 endline
 
-line u:texture_MY 
+line u:texture 
   1796.0132 2534.5892
   1796.0132 2534.5892 1745.4816 2460.0765 1742.9122 2448.9425
   1740.3428 2437.8084 1722.357 2354.731 1723.2135 2333.3193
@@ -1043,77 +1043,77 @@ point 1622.74 3928.2 station-name -align l -scale xs -text 10
 point 1652.02 3703.13 station-name -align l -scale xs -text 9
 point 2435.37 3014.21 station-name -align r -scale xs -text 4
 point 1998.35 2794.31 station-name -align bl -scale xs -text 3
-line u:texture_MY 
+line u:texture 
   2732.5316 2551.9459
   2757.9674 2497.4407
 endline
 
-line u:texture_MY 
+line u:texture 
   2770.0797 2550.7347
   2734.9541 2537.4112
 endline
 
-line u:texture_MY 
+line u:texture 
   2659.8579 2518.0315
   2691.3498 2469.5824
 endline
 
-line u:texture_MY 
+line u:texture 
   2623.521 2476.8498
   2661.0691 2433.2455
 endline
 
-line u:texture_MY 
+line u:texture 
   2673.1814 2508.3417
   2613.8312 2447.7803
 endline
 
-line u:texture_MY 
+line u:texture 
   2702.2509 2496.2294
   2702.2509 2496.2294 2633.2109 2425.9782 2622.3098 2417.4996
 endline
 
-line u:texture_MY 
+line u:texture 
   2783.4032 2531.3551
   2778.5583 2528.9326 2738.5878 2510.7642 2728.8979 2507.1305
 endline
 
-line u:texture_MY 
+line u:texture 
   2938.4405 2625.8309
   2938.4405 2625.8309 2881.5127 2577.3817 2870.6117 2572.5368
 endline
 
-line u:texture_MY 
+line u:texture 
   2810.0502 2518.0315
   2772.5022 2567.6919
 endline
 
-line u:texture_MY 
+line u:texture 
   2565.3821 2331.5024
   2535.1014 2336.3473
 endline
 
-line u:texture_MY 
+line u:texture 
   2623.521 2404.1761
   2590.8179 2438.0905
 endline
 
-line u:texture_MY 
+line u:texture 
   2730.1092 2469.5824
   2694.9835 2538.6224
 endline
 
-line u:texture_MY 
+line u:texture 
   2852.4432 2538.6224
   2814.8952 2591.9165
 endline
 
-line u:texture_MY 
+line u:texture 
   2961.4538 2607.6625
   2921.4833 2653.6891
 endline
 
-line u:texture_MY 
+line u:texture 
   3101.9564 2686.3923
   3101.9564 2686.3923 3016.4709 2681.8679 2961.3843 2669.7512
   2904.4288 2657.2235 2841.2093 2624.8015 2824.585 2613.7186
@@ -1167,17 +1167,17 @@ point 386.51 3427.85 label -align t -text "little hole on the side"
 point 1879.53 4081.26 continuation 
 point 1735.51 4270.0 continuation 
 point 3446.28 2713.64 continuation 
-point 1821.02 3247.83 u:gradice_MY -orientation 150.51029868823224
-point 1883.95 3185.28 u:gradice_MY -orientation 140.27571882733085
-point 1980.06 3132.21 u:gradice_MY -orientation 130.91042291319877
-point 2090.55 3086.59 u:gradice_MY -orientation 131.295065991225
-point 2202.99 3053.06 u:gradice_MY -orientation 140.43849021436242
-point 2378.14 2953.9 u:gradice_MY -orientation 173.6523990288531
-point 2429.3 2324.08 u:gradice_MY -orientation 226.73824722602717
-point 2570.05 2655.41 u:gradice_MY -orientation 226.1413209355604
-point 2382.39 2717.72 u:gradice_MY -orientation 183.01308834284023
-point 2406.58 2423.77 u:gradice_MY -orientation 221.49755111713236
-point 2475.49 2505.87 u:gradice_MY -orientation 215.97603602749433
+point 1821.02 3247.83 u:gradice -orientation 150.51029868823224
+point 1883.95 3185.28 u:gradice -orientation 140.27571882733085
+point 1980.06 3132.21 u:gradice -orientation 130.91042291319877
+point 2090.55 3086.59 u:gradice -orientation 131.295065991225
+point 2202.99 3053.06 u:gradice -orientation 140.43849021436242
+point 2378.14 2953.9 u:gradice -orientation 173.6523990288531
+point 2429.3 2324.08 u:gradice -orientation 226.73824722602717
+point 2570.05 2655.41 u:gradice -orientation 226.1413209355604
+point 2382.39 2717.72 u:gradice -orientation 183.01308834284023
+point 2406.58 2423.77 u:gradice -orientation 221.49755111713236
+point 2475.49 2505.87 u:gradice -orientation 215.97603602749433
 point 2259.27 1550.2 gradient -orientation 202.8760572499149
 point 2260.14 1643.63 gradient -orientation 168.35793332979952
 point 2194.79 1730.76 gradient -orientation 152.3934004019943
@@ -1221,7 +1221,7 @@ line u:icestep_MY
   1618.75 3163.75 1532.8125 3176.25 1523.4375 3126.25
 endline
 
-line u:texture_MY 
+line u:texture 
   1244.85 3217.2631
   1280.86 3146.03
   1304.71 3120.85
@@ -1244,7 +1244,7 @@ line u:texture_MY
   1327.84 2832.76
 endline
 
-line u:texture_MY 
+line u:texture 
   1461.1253 3006.7988
   1403.69 2993.54
   1349.72 2962.17
@@ -1252,7 +1252,7 @@ line u:texture_MY
   1256.8347 2932.6857
 endline
 
-line u:texture_MY 
+line u:texture 
   270.95 3644.96
   272.08 3643.83 273.35 3642.81 274.35 3641.56
   290.57 3621.29 312.51 3603.31 336.33 3594.59
@@ -1280,7 +1280,7 @@ line u:texture_MY
   682.95 3382.43 696.6622 3380.2113 729.0422 3371.5512
 endline
 
-line u:texture_MY 
+line u:texture 
   1242.81 3217.51
   1208.22 3234.89
   1204.17 3239.09
@@ -1306,7 +1306,7 @@ line u:texture_MY
   730.43 3371.32
 endline
 
-line u:texture_MY 
+line u:texture 
   1687.7318 2779.8511
   1708.9647 2798.0605
   1736.98 2810.43
@@ -1324,7 +1324,7 @@ line u:texture_MY
   2078.0279 2875.7421
 endline
 
-line u:texture_MY 
+line u:texture 
   2070.3482 2739.2529
   2032.76 2690.85
   2030.76 2687.5
@@ -1334,7 +1334,7 @@ line u:texture_MY
   2004.64 2655.85
 endline
 
-line u:texture_MY 
+line u:texture 
   2073.4264 2738.9959
   2101.68 2744.69
   2141.39 2747.3
@@ -1358,7 +1358,7 @@ line u:texture_MY
   2078.1819 2876.7968
 endline
 
-line u:texture_MY 
+line u:texture 
   1197.6287 2477.5361
   1499.5566 2566.5288
   1501.6966 2579.9688
@@ -1378,7 +1378,7 @@ line u:texture_MY
   1685.0835 2778.7429
 endline
 
-line u:texture_MY 
+line u:texture 
   1453.14 2531.22
   1453.14 2480.63 1450.31 2427.16 1461.99 2377.44
   1464.92 2364.97 1468.74 2352.71 1472.89 2340.59
@@ -1390,7 +1390,7 @@ line u:texture_MY
   1587.7 2130.18 1602.87 2110.48 1618.71 2093.38
 endline
 
-line u:texture_MY 
+line u:texture 
   1530.55 2008.4
   1527.38 2035.21 1524.74 2065.27 1510.12 2089.08
   1505.18 2097.12 1495.33 2101.13 1489.79 2108.77
@@ -5427,24 +5427,24 @@ endscrap
 scrap entrance-4p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
 point 2632.57 1677.49 continuation 
-line u:texture_MY 
+line u:texture 
   2606.53 1195.54
   2600.99 1172.09 2596.08 1137.79 2578.49 1118.83
   2573.0 1112.91 2562.87 1114.49 2555.51 1111.18
   2541.31 1104.79 2528.89 1093.17 2516.25 1084.23
 endline
 
-line u:texture_MY 
+line u:texture 
   2609.72 1130.37
   2613.43 1124.69 2614.82 1117.97 2617.96 1117.77
 endline
 
-line u:texture_MY 
+line u:texture 
   2693.39 1035.43
   2729.2 1030.32 2771.04 1003.35 2782.29 967.32
 endline
 
-line u:texture_MY 
+line u:texture 
   2505.09 1101.27
   2505.6 1101.52 2506.16 1101.67 2506.6 1102.02
   2507.42 1102.68 2508.04 1103.55 2508.82 1104.25
@@ -5464,12 +5464,12 @@ line u:texture_MY
   2497.94 1234.26 2490.48 1236.58 2483.18 1236.58
 endline
 
-line u:texture_MY 
+line u:texture 
   2529.27 1227.51
   2529.27 1254.0 2540.07 1280.05 2545.21 1305.75
 endline
 
-line u:texture_MY 
+line u:texture 
   2505.85 1234.31
   2505.85 1236.58 2505.79 1238.85 2505.85 1241.11
   2505.97 1245.61 2505.87 1250.12 2506.4 1254.59
@@ -5478,44 +5478,44 @@ line u:texture_MY
   2517.38 1304.53 2518.14 1306.75 2518.69 1308.39
 endline
 
-line u:texture_MY 
+line u:texture 
   2549.66 1228.26
   2554.54 1230.71 2558.93 1237.14 2564.02 1238.47
 endline
 
-line u:texture_MY 
+line u:texture 
   2561.0 1205.59
   2571.14 1205.59 2581.45 1207.85 2591.49 1207.85
 endline
 
-line u:texture_MY 
+line u:texture 
   2550.42 1184.42
   2555.13 1181.87 2560.24 1179.95 2564.55 1176.78
   2568.78 1173.68 2574.86 1160.8 2581.77 1160.99
 endline
 
-line u:texture_MY 
+line u:texture 
   2537.58 1136.8
   2546.2 1133.56 2555.68 1130.45 2561.03 1123.91
 endline
 
-line u:texture_MY 
+line u:texture 
   2527.76 1213.15
   2527.76 1193.38 2530.78 1173.13 2530.78 1153.43
 endline
 
-line u:texture_MY 
+line u:texture 
   2544.38 1193.49
   2540.57 1193.49 2536.76 1193.49 2532.96 1193.49
   2515.03 1193.49 2497.21 1187.82 2479.91 1185.01
 endline
 
-line u:texture_MY 
+line u:texture 
   2537.58 1169.3
   2522.56 1168.42 2506.38 1169.25 2492.25 1164.01
 endline
 
-line u:texture_MY 
+line u:texture 
   2493.0 1277.4
   2510.81 1277.4 2529.51 1274.79 2545.89 1268.33
   2551.44 1266.14 2556.66 1254.83 2559.51 1250.65
@@ -5525,7 +5525,7 @@ line u:texture_MY
   2565.01 1122.69 2558.67 1119.23 2553.44 1114.87
 endline
 
-line u:texture_MY 
+line u:texture 
   2535.31 1310.66
   2541.15 1307.13 2547.45 1304.21 2552.69 1299.84
   2553.07 1299.52 2553.44 1299.06 2553.44 1298.56
@@ -5535,12 +5535,12 @@ line u:texture_MY
   2492.39 1299.69 2485.49 1288.44 2476.38 1281.93
 endline
 
-line u:texture_MY 
+line u:texture 
   2837.75 957.9
   2840.01 930.28 2844.92 901.1 2844.92 873.65
 endline
 
-line u:texture_MY 
+line u:texture 
   2839.11 914.24
   2868.5 903.85 2901.29 902.6 2931.43 895.24
   2933.28 894.78 2935.09 894.18 2936.96 893.85
@@ -5548,30 +5548,30 @@ line u:texture_MY
   2958.47 889.69 2976.34 876.24 2985.34 887.14
 endline
 
-line u:texture_MY 
+line u:texture 
   2926.92 924.05
   2943.11 924.05 2975.47 928.86 2986.36 912.77
   2995.01 900.01 2994.48 880.04 2995.94 865.39
   2997.95 845.28 3003.71 825.1 3005.83 805.09
 endline
 
-line u:texture_MY 
+line u:texture 
   2955.61 909.7
   2959.5 886.7 2964.59 863.2 2970.27 840.62
 endline
 
-line u:texture_MY 
+line u:texture 
   2894.12 937.39
   2894.12 923.86 2897.26 909.57 2903.27 897.51
 endline
 
-line u:texture_MY 
+line u:texture 
   2801.88 955.85
   2801.88 929.95 2801.11 903.29 2800.85 877.41
   2800.76 868.41 2800.93 861.14 2799.83 856.37
 endline
 
-line u:texture_MY 
+line u:texture 
   2800.83 973.68
   2799.44 972.29 2798.05 970.9 2796.66 969.51
   2793.99 966.84 2789.59 966.24 2787.11 963.39
@@ -5579,12 +5579,12 @@ line u:texture_MY
   2785.29 956.48 2783.48 956.38 2782.54 955.38
 endline
 
-line u:texture_MY 
+line u:texture 
   2778.01 948.56
   2777.06 947.47 2775.96 946.51 2774.93 945.49
 endline
 
-line u:texture_MY 
+line u:texture 
   2757.04 1013.78
   2757.25 1009.21 2757.25 1004.63 2757.68 1000.09
   2758.38 992.71 2765.49 983.66 2761.34 976.72
@@ -5601,7 +5601,7 @@ line u:texture_MY
   2501.83 862.77 2501.61 860.76 2501.03 858.89
 endline
 
-line u:texture_MY 
+line u:texture 
   2749.76 869.48
   2747.78 869.48 2745.79 869.48 2743.81 869.48
   2739.43 869.48 2735.06 869.33 2730.69 869.48
@@ -5610,13 +5610,13 @@ line u:texture_MY
   2672.93 880.35 2668.39 912.18 2668.39 930.62
 endline
 
-line u:texture_MY 
+line u:texture 
   2675.01 834.4
   2658.06 836.28 2635.03 843.01 2624.47 858.58
   2616.85 869.82 2618.27 885.74 2620.1 898.61
 endline
 
-line u:texture_MY 
+line u:texture 
   2605.55 804.61
   2599.96 805.17 2590.45 805.57 2585.18 808.25
   2583.66 809.02 2578.61 815.02 2577.15 817.14
@@ -5625,12 +5625,12 @@ line u:texture_MY
   2559.64 830.98 2554.05 859.08 2562.32 875.63
 endline
 
-line u:texture_MY 
+line u:texture 
   2624.07 896.62
   2598.9 868.63 2566.98 840.92 2530.8 827.12
 endline
 
-line u:texture_MY 
+line u:texture 
   2634.0 861.54
   2631.18 861.11 2628.27 861.07 2625.54 860.26
   2615.41 857.27 2610.18 845.93 2602.82 839.61
@@ -5638,22 +5638,22 @@ line u:texture_MY
   2581.07 823.06 2575.6 802.06 2563.88 788.07
 endline
 
-line u:texture_MY 
+line u:texture 
   2655.16 860.88
   2638.99 842.38 2620.58 823.33 2611.01 800.38
 endline
 
-line u:texture_MY 
+line u:texture 
   2675.67 833.08
   2675.67 850.6 2675.02 869.27 2679.24 886.41
 endline
 
-line u:texture_MY 
+line u:texture 
   2712.72 840.36
   2712.72 857.8 2716.07 875.76 2720.62 892.55
 endline
 
-line u:texture_MY 
+line u:texture 
   2706.76 924.42
   2702.6 923.7 2698.37 923.28 2694.27 922.26
   2690.54 921.33 2686.64 920.56 2683.34 918.59
@@ -5661,7 +5661,7 @@ line u:texture_MY
   2668.07 902.52 2644.93 897.07 2629.76 889.54
 endline
 
-line u:texture_MY 
+line u:texture 
   2813.93 962.81
   2799.74 953.2 2787.51 939.63 2772.21 932.06
   2770.45 931.19 2768.52 930.58 2766.96 929.38
@@ -5670,19 +5670,19 @@ line u:texture_MY
   2736.49 914.92 2733.95 922.4 2731.33 928.77
 endline
 
-line u:texture_MY 
+line u:texture 
   2758.36 931.04
   2758.58 928.17 2758.77 925.3 2759.02 922.43
   2760.78 902.5 2764.5 882.26 2768.92 863.01
   2769.84 859.0 2770.66 855.5 2770.27 852.93
 endline
 
-line u:texture_MY 
+line u:texture 
   2716.68 921.77
   2719.03 898.3 2733.53 877.53 2744.47 858.23
 endline
 
-line u:texture_MY 
+line u:texture 
   2710.73 1009.81
   2706.0 1009.58 2701.26 1009.55 2696.54 1009.12
   2692.02 1008.71 2687.49 1008.16 2683.03 1007.3
@@ -5691,30 +5691,30 @@ line u:texture_MY
   2582.13 1022.95 2547.5 1028.59 2517.57 1043.56
 endline
 
-line u:texture_MY 
+line u:texture 
   2669.72 995.91
   2670.97 989.88 2671.66 983.71 2673.46 977.83
   2675.09 972.52 2677.04 967.2 2679.97 962.48
   2681.47 960.07 2684.93 959.43 2686.54 957.09
 endline
 
-line u:texture_MY 
+line u:texture 
   2614.81 1008.48
   2614.81 987.49 2624.28 962.74 2641.53 950.06
 endline
 
-line u:texture_MY 
+line u:texture 
   2563.88 1019.07
   2564.52 1012.35 2564.87 1005.59 2565.81 998.9
   2568.91 976.85 2581.37 956.72 2589.01 936.33
 endline
 
-line u:texture_MY 
+line u:texture 
   2516.25 994.58
   2520.54 968.79 2534.16 943.91 2549.98 923.76
 endline
 
-line u:texture_MY 
+line u:texture 
   2707.42 986.64
   2672.55 983.83 2638.33 970.82 2604.71 962.31
   2600.02 961.12 2595.27 960.16 2590.49 959.41
@@ -5725,38 +5725,38 @@ line u:texture_MY
   2518.34 946.38 2511.65 933.66 2505.6 925.67
 endline
 
-line u:texture_MY 
+line u:texture 
   2622.09 989.29
   2602.93 989.29 2580.01 988.43 2564.54 976.05
 endline
 
-line u:texture_MY 
+line u:texture 
   2659.79 1024.37
   2644.23 1038.2 2624.14 1050.41 2614.29 1069.5
   2607.18 1083.28 2608.02 1100.93 2605.68 1115.74
 endline
 
-line u:texture_MY 
+line u:texture 
   2613.49 1024.37
   2595.8 1042.07 2570.41 1064.91 2569.83 1092.04
 endline
 
-line u:texture_MY 
+line u:texture 
   2623.41 1103.8
   2595.71 1096.92 2570.45 1078.09 2542.05 1073.35
 endline
 
-line u:texture_MY 
+line u:texture 
   2628.04 1068.72
   2610.02 1067.21 2592.87 1057.99 2575.12 1055.15
 endline
 
-line u:texture_MY 
+line u:texture 
   2648.55 1043.56
   2637.36 1043.56 2626.08 1040.51 2615.47 1037.61
 endline
 
-line u:texture_MY 
+line u:texture 
   2137.54 1501.59
   2125.86 1504.33 2108.72 1498.54 2103.07 1487.22
   2095.77 1472.61 2092.85 1455.27 2092.85 1439.18
@@ -5770,34 +5770,34 @@ line u:texture_MY
   2128.1 1237.1 2135.74 1233.1 2143.12 1230.7
 endline
 
-line u:texture_MY 
+line u:texture 
   2100.3 1262.38
   2088.7 1258.4 2079.19 1249.04 2067.9 1244.49
   2062.7 1242.39 2056.02 1243.36 2051.1 1240.24
 endline
 
-line u:texture_MY 
+line u:texture 
   2089.87 1314.54
   2070.18 1312.65 2051.75 1299.43 2031.66 1298.12
 endline
 
-line u:texture_MY 
+line u:texture 
   2096.57 1349.56
   2067.08 1349.56 2028.1 1341.89 2004.51 1363.44
 endline
 
-line u:texture_MY 
+line u:texture 
   2090.62 1392.79
   2063.56 1392.79 2034.24 1398.91 2010.93 1412.91
 endline
 
-line u:texture_MY 
+line u:texture 
   2093.6 1437.5
   2089.06 1437.92 2084.48 1438.05 2079.98 1438.76
   2058.68 1442.12 2039.9 1458.09 2023.19 1471.33
 endline
 
-line u:texture_MY 
+line u:texture 
   2101.79 1471.03
   2097.19 1471.03 2091.19 1474.66 2086.52 1479.98
   2077.28 1490.49 2066.43 1502.49 2058.62 1514.22
@@ -5805,7 +5805,7 @@ line u:texture_MY
   2056.31 1517.92 2056.44 1518.73 2056.36 1519.47
 endline
 
-line u:texture_MY 
+line u:texture 
   2113.7 1515.0
   2108.26 1513.74 2102.45 1513.56 2097.38 1511.23
   2091.15 1508.37 2086.58 1501.36 2083.24 1495.73
@@ -5813,14 +5813,14 @@ line u:texture_MY
   2060.06 1369.78 2069.19 1292.22 2107.14 1233.84
 endline
 
-line u:texture_MY 
+line u:texture 
   2080.19 1236.29
   2051.03 1240.46 2042.23 1283.19 2037.53 1307.64
   2028.01 1357.16 2028.16 1412.12 2041.97 1461.14
   2048.26 1483.49 2059.51 1504.83 2068.82 1525.98
 endline
 
-line u:texture_MY 
+line u:texture 
   2048.91 1438.99
   2048.91 1436.51 2048.96 1434.02 2048.91 1431.54
   2048.8 1426.29 2048.57 1421.05 2048.41 1415.81
@@ -5833,7 +5833,7 @@ line u:texture_MY
   2054.49 1320.13 2062.5 1269.27 2087.64 1234.06
 endline
 
-line u:texture_MY 
+line u:texture 
   2048.91 1510.53
   2046.24 1491.74 2034.76 1474.7 2031.41 1456.5
   2027.55 1435.61 2028.09 1413.29 2026.57 1392.27
@@ -5841,13 +5841,13 @@ line u:texture_MY
   2018.77 1279.37 2019.48 1274.59 2020.21 1269.81
 endline
 
-line u:texture_MY 
+line u:texture 
   2079.44 1505.31
   2078.95 1500.87 2078.62 1496.41 2077.96 1491.99
   2075.86 1477.83 2064.8 1463.94 2063.06 1447.19
 endline
 
-line u:texture_MY 
+line u:texture 
   2099.55 1481.47
   2099.06 1480.97 2098.45 1480.56 2098.06 1479.98
   2096.68 1477.89 2095.48 1475.69 2094.26 1473.51
@@ -5856,7 +5856,7 @@ line u:texture_MY
   2073.13 1432.13 2081.2 1394.14 2074.72 1361.7
 endline
 
-line u:texture_MY 
+line u:texture 
   2100.3 1451.66
   2095.83 1452.33 2091.19 1452.29 2086.88 1453.67
   2070.3 1459.0 2057.66 1476.3 2043.7 1486.68

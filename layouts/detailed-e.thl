@@ -31,7 +31,7 @@ layout detailed-e
 
 
 
-code metapost 
+code metapost
 #_____________________________________________________________
 #                                                             |
 #                            LEGEND ITEMS                     |
@@ -55,7 +55,7 @@ code metapost
 
 
   ## SCALE BAR (modified from contributions by Thomas Holder)
-  
+
   def s_scalebar (expr l, units, txt) =
     begingroup
      interim warningcheck:=0;
@@ -93,13 +93,13 @@ code metapost
      label.top(thTEX(decimal (0)),origin+(0,lblht));
      #label.bot(thTEX("EXTENDED ELEVATION 1 : " & decimal round(Scale*100)),(tmp40+scal10,-2lblht));
     endgroup
-   enddef; 
-       
+   enddef;
+
 #_____________________________________________________________
 #                                                             |
 #                            POINT TYPES                      |
 #_____________________________________________________________|
-    
+
     def p_waterflow_MY (expr P,R,S,A)=
     U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
@@ -132,7 +132,7 @@ code metapost
       thdraw (-.1u,-.25u)--(0,-.18u)--(.1u,-.25u);
       thdraw (0,-.28u)--(0,0.15u);
     enddef;
-    
+
     def p_gradient_MY (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
@@ -140,7 +140,7 @@ code metapost
       thfill (-.12u,.08u)--(0,.12u)--(.12u,.08u)--(0,.3u)--cycle;
       thdraw (0,-.28u)--(0,0.15u);
     enddef;
- 
+
     def p_pillar_MY (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
@@ -183,9 +183,9 @@ def p_anchor_MY (expr P,R,S,A)=
   thdraw q rotated (315) shifted (.1u,.1u);
   thdraw (-.1u,-.1u)..(-.1u,.1u)..(.1u,.1u)..(.1u,-.1u)..cycle;
 enddef;
-    
+
     # NOW SOME USER DEFINED POINTS
-    
+
     def p_u_sampled_MY (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
@@ -199,12 +199,12 @@ enddef;
       thdraw (-.3u,-.3u)--(-.3u,.3u)--(.3u,.3u)..(.3u,-.3u)--cycle;
       thfill (-.2u,-.2u)--(-.2u,.2u)--(.2u,.2u)..(.2u,-.2u)--cycle;
     enddef;
-    
+
     def p_u_waterdrip (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
       pickup PenD;
-      
+
       thdraw (0u,0u)--(0,.15u) withcolor(0,0.1,0.7);
       thdraw (0,.3u)--(0,.45u) withcolor(0,0.1,0.7);
       thdraw (0,-.15u)--(0,-.3u) withcolor(0,0.1,0.7);
@@ -216,12 +216,12 @@ enddef;
 #                                                             |
 #                            LINE TYPES                       |
 #_____________________________________________________________|
-    
-    
-    
+
+
+
     ##### SPECIFIC WALL TYPES
     # BLOCKS
-     
+
      def l_wall_blocks_MY (expr P)=
       T:=identity;
       cas := 0;
@@ -240,17 +240,17 @@ enddef;
       q := (point t_0 of P) -- ((point t1 of P) + .05*sk*u * unitvector(thdir(P,t1) rotated (-88+normaldeviate*4))) --
       ((point t2 of P) + .05*sk*u * unitvector(thdir(P,t2) rotated (-88+normaldeviate*4))) -- (point t_end of P) -- ((point t4 of P) - .1*sk*u * unitvector(thdir(P,t4) rotated (-88+normaldeviate*4))) --
       ((point t3 of P) - .1*sk*u * unitvector(thdir(P,t3) rotated (-88+normaldeviate*4))) -- cycle;
-      
+
       thdraw q withcolor(0.3,0.3,0.3);
       cas := cas + mojkrok;
       exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
       endfor;
       fi;
     enddef;
-    
+
     # FLOWSTONE
-    
-    def l_wall_flowstone_MY (expr P) = 
+
+    def l_wall_flowstone_MY (expr P) =
       T:=identity;
       cas := 0;
       dlzka := arclength P;
@@ -265,7 +265,7 @@ enddef;
         cas := cas + mojkrok;
         exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
       endfor;
-      pickup PenA;  
+      pickup PenA;
       thdraw P withcolor(1,0.5,0.1);
     enddef;
 
@@ -302,7 +302,7 @@ enddef;
       sk := 1-.25*normaldeviate;
       q := (point t_0 of P + .02*sk*u * unitvector(thdir(P,t_0))) .. ((point t1 of P) - .06*sk*u * unitvector(thdir(P,t1) rotated (88+normaldeviate*2))) ..
       ((point t2 of P) + .03*sk*u * unitvector(thdir(P,t2) rotated (-20+normaldeviate*2))) .. ((point t3 of P) - .07*sk*u *unitvector(thdir(P,t3) rotated (-20+normaldeviate*2))) .. cycle;
-      
+
       thclean q;
       thfill q withcolor(0.7,0.3,0.2);
       cas := cas + mojkrok;
@@ -310,9 +310,9 @@ enddef;
       endfor;
       fi;
     enddef;
-    
+
     # ICE
-    def l_wall_ice_MY (expr P) = 
+    def l_wall_ice_MY (expr P) =
       T:=identity;
       cas := 0;
       dlzka := arclength P;
@@ -327,7 +327,7 @@ enddef;
 
           q := subpath(t1,t3) of P;
           p := (point t5 of P + .45u * unitvector(thdir(P,t5) rotated -90))--(point t5 of P + .2u * unitvector(thdir(P,t5) rotated -90));
-          
+
         #thdraw  (point t of P + .25u * unitvector(thdir(P,t) rotated -90))  withcolor(0,0.7,0.9);
         thdraw q shifted ( .3u * unitvector(thdir(P,t2) rotated -90)) withcolor(0,0.7,0.9);
         thdraw p  withcolor(0,0.7,0.9);
@@ -335,41 +335,41 @@ enddef;
         cas := cas + mojkrok;
         exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
       endfor;
-      pickup PenA;  
+      pickup PenA;
       thdraw P withcolor(0,0.7,0.9);
     enddef;
-    
-    
+
+
     #### TYPES INSIDE A PASSAGE
-    
+
     # EXPOSURE OF BEDROCK
 
     def l_u_snowlevel_MY (expr P)=
       T:=identity;
       thdraw P withpen PenB withcolor (0,0.7,0.9) dashed evenly xscaled 0.5;
     enddef;
-    
+
     def l_u_texture (expr P)=
       T:=identity;
       thdraw P withpen PenD withcolor (0.3,0.3,0.3);
     enddef;
-    
+
     # CENTRELINE
-    
+
     def l_survey_cave_MY (expr P) =
       T:=identity;
       draw P withpen PenD withcolor (0.7,0,0);
     enddef;
-    
+
     # ROCKBORDERS
 
-    def l_rockborder_MY (expr P) = 
+    def l_rockborder_MY (expr P) =
       T:=identity;
       pickup PenC;
       if cycle P: thclean P fi;
       thdraw P withcolor (0.3,0.3,0.3);
     enddef;
-    
+
     # FLOWSTONE
     def l_u_wall_flowstone_MY (expr P)=
       T:=identity;
@@ -384,8 +384,8 @@ enddef;
           t2 := arctime (cas + mojkrok*7.5/10) of P;
           t2b := arctime (cas + mojkrok*6/10) of P;
           t2a :=arctime (cas +mojkrok*7.49/10) of P;
-          
-          q := ((point t1 of P) + .1u * unitvector(thdir(P,t1) rotated -115)) .. 
+
+          q := ((point t1 of P) + .1u * unitvector(thdir(P,t1) rotated -115)) ..
                 ((point t1b of P) - .02u * unitvector(thdir(P,t1b) rotated -90)) ..
                ((point t2b of P) - .02u * unitvector(thdir(P,t1b) rotated -90)) ..
                ((point t2 of P) + .1u * unitvector(thdir(P,t2) rotated -65))--
@@ -393,14 +393,14 @@ enddef;
                ((point t2b of P) + .02u * unitvector(thdir(P,t1b) rotated -90)) ..
                ((point t1b of P) + .02u * unitvector(thdir(P,t1b) rotated -90)) ..
                ((point t1 of P) + .1u * unitvector(thdir(P,t1) rotated -115));
-          
+
           thdraw q withcolor(0.85,0.45,0.1);
           cas := cas + mojkrok;
           exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
         endfor;
       fi;
     enddef;
-    
+
 #_____________________________________________________________
 #                                                             |
 #                            AREA TYPES                       |
@@ -411,7 +411,7 @@ enddef;
        T:=identity;
        thfill p withcolor (0.1,0.1,0.25);
      enddef;
-    
+
      # ICE
       beginpattern(pattern_ice_MY);
         pickup PenC;
@@ -422,27 +422,27 @@ enddef;
         patternystep(0.6u);
         patterncolor(0,0.7,0.9);
      endpattern;
-     
+
      def a_ice_MY (expr Path) =
       T:=identity;
       thclean Path;
       thfill Path withpattern pattern_ice_MY;
     enddef;
-    
+
    # SNOW
 
     def a_snow_MY (expr P) =
       T:=identity;
       pickup PenC;
       path q; q = bbox P;
-      picture tmp_pic, tmp_sn; 
+      picture tmp_pic, tmp_sn;
       pair z;
       tmp_sn := image(
         pickup PenC;
         p := origin--(0,.2*u);
         draw p; draw p rotated (60); draw p rotated (120);
         draw p rotated (180); draw p rotated (240); draw p rotated (300);
-        
+
       );
       tmp_pic := image(
         for i = xpart llcorner q step 1u until xpart urcorner q:
@@ -451,18 +451,18 @@ enddef;
       if xpart (P intersectiontimes ((bbox tmp_sn) shifted z)) < 0:
               draw tmp_sn shifted z;
       fi;
-          endfor;  
+          endfor;
         endfor;
       );
       clip tmp_pic to P;
       drawoptions();
       draw tmp_pic;
     enddef;
-    
+
     # SEDIMENTARY FILLS
-    
+
     # CLAY
-    
+
       beginpattern(pattern_clay_MY);
         pickup PenD;
         p:= (-.008u,0)--(.008u,0);
@@ -476,7 +476,7 @@ enddef;
         patternystep(0.2u);
         patterncolor(0.65,0.55,0.1);
      endpattern;
-     
+
      def a_clay_MY (expr Path) =
       T:=identity;
       thclean Path;
@@ -493,7 +493,7 @@ enddef;
         patternystep(0.8u);
         patterncolor(0,0.7,0.9);
     endpattern;
-    
+
     ## now deprecated?
     def a_thing_MY (expr p) =
       T:=identity;
@@ -519,7 +519,7 @@ enddef;
       drawoptions();
       draw tmp_pic;
     enddef;
-    
+
     # SAND
     def a_sand_MY (expr p) =
       T:=identity;
@@ -545,7 +545,7 @@ enddef;
       drawoptions();
       draw tmp_pic;
     enddef;
-    
+
     # PEBBLES
     def a_pebbles_MY (expr p) =
       T:=identity;
@@ -573,7 +573,7 @@ enddef;
             if xpart (p intersectiontimes ((bbox tmp_pebblea) shifted z)) < 0:
               draw tmp_pebblea shifted z;
               draw tmp_pebbleb shifted z;
-             
+
             fi;
           endfor;
         endfor;
@@ -587,9 +587,9 @@ enddef;
 #                                                             |
 #               NOW WE INITIATE ALL THE SYMBOLS               |
 #_____________________________________________________________|
-   
+
    ## points
-    # redefinitions 
+    # redefinitions
     initsymbol("p_pillar_MY");
     initsymbol("p_stalagmite_MY");
     initsymbol("p_stalactite_MY");
@@ -598,13 +598,13 @@ enddef;
     initsymbol("p_station_fixed_MY");
     initsymbol("p_anchor_MY");
     initsymbol("p_waterflow_MY");
-    
+
     initsymbol("p_u_logger_MY");
     initsymbol("p_u_waterdrip");
     initsymbol("p_u_sampled_MY");
     initsymbol("p_u_probe_MY");
     initsymbol("p_u_grass");
-   
+
    ## lines
     # redefinitions
     # wall types
@@ -613,18 +613,18 @@ enddef;
     initsymbol("l_wall_flowstone_MY");
     initsymbol("l_wall_debris_MY");
     initsymbol("l_wall_clay_MY");
-    
+
     # others
     initsymbol("l_rockborder_MY");
     initsymbol("l_survey_cave_MY");
     initsymbol("l_pit_MY");
-    
-    
+
+
     # user defined
     initsymbol("l_u_texture");
     initsymbol("l_u_snowlevel_MY");
     initsymbol("l_u_wall_flowstone_MY");
-   
+
    ## areas
     # redefinitions
     initsymbol("a_snow_MY");
@@ -650,19 +650,19 @@ endcode
  symbol-assign point station:fixed MY
  symbol-hide point passage-height
  symbol-colour point station-name [70 0 0]
- 
+
  ## water and ice
  symbol-assign area ice MY
  symbol-assign area snow MY
- 
+
  symbol-colour area ice [0 70 90]
  symbol-colour area snow [0 70 90]
  symbol-colour area water [10 35 70]
  symbol-colour point water-flow [10 35 70]
  symbol-colour point station-name [70 0 0]
  symbol-colour point station:fixed [70 0 0]
- 
- ## formations 
+
+ ## formations
  symbol-colour point flowstone [85 45 10]
  symbol-color line wall:flowstone [85 45 10]
  symbol-colour point flowstone [85 45 10]
@@ -673,18 +673,18 @@ endcode
  symbol-colour point helictite [85 45 10]
  symbol-colour point soda-straw [85 45 10]
  symbol-colour point crystal [85 45 10]
- 
+
  ## sedimentary fills
  symbol-assign line rock-border MY
  symbol-assign area clay MY
  symbol-assign area sand MY
  symbol-assign area pebbles MY
- 
+
  symbol-colour area clay [65 35 15]
  symbol-colour line wall:clay [65 35 15]
  symbol-colour area sand [85 75 10]
- symbol-colour line border [10 35 70]
- 
+ symbol-colour line border [0 70 90]
+
  ## misc
  symbol-assign point gradient MY
  symbol-assign line pit AUT
@@ -715,5 +715,3 @@ text en "point u:grass" "grass"
 text de "line u:openshaft_MY" "Eingangskessel"
 text de "line u:texture" "Felsboden"
 text de "line u:flowstone_MY" "flächiger Sinter"
-
-

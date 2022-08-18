@@ -131,7 +131,7 @@ layout custom_points
 	    ## new definitions
 
 	    # a blue arrow for gradient on ice
-	    def p_u_gradice_MY (expr P,R,S,A)=
+	    def p_u_gradice (expr P,R,S,A)=
 	       U:=(.2u,.2u);
 	       T:=identity aligned A rotated R scaled S shifted P;
 	       pickup PenD;
@@ -182,7 +182,7 @@ layout custom_points
 
 	    # initialise the symbols here
 
-	    initsymbol("p_u_gradice_MY");
+	    initsymbol("p_u_gradice");
 	    initsymbol("p_u_sampled_MY");
 	    initsymbol("p_u_logger_MY");
 	    initsymbol("p_u_waterdrip");
@@ -194,7 +194,7 @@ endlayout
 
 ## add legend names for each new symbol definition
 
-text en "point u:gradice_MY"  "ice gradient"
+text en "point u:gradice"  "ice gradient"
 text en "point u:sampled_MY"  "sampled"
 text en "point u:logger_MY"  "logger"
 text en "point u:waterdrip" "water drips"
