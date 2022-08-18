@@ -4,10 +4,15 @@ survey rampage_halle -title "Rampage Halle" -entrance 0
     # big ramp over cave 4
 
   input rampage_halle-1p.th2
+  input rampage_halle-1s.th2
 
   map m-all-p -projection plan
     rampage_halle-1p
     rampage_halle-2p
+  endmap
+
+  map m-all-e -projection extended
+    rampage_halle-1s
   endmap
 
   centerline

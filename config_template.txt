@@ -2,6 +2,19 @@ source data/{basefile}/{basefile}.th
 
 input layouts/detailed-p.thl
 input layouts/detailed-e.thl
+layout local-e
+  copy detailed-e
+  scale 1 250
+  symbol-show point label
+  symbol-show point station-name
+  grid-size 5 5 5 m
+
+  endcode
+endlayout
+
+lang de
+export map -projection extended -o data/{basefile}/{basefile}-L.pdf -layout local-e
+
 
 layout local-p
   copy detailed-p
@@ -10,7 +23,6 @@ layout local-p
   scale 1 250
 
   code tex-map
-    \def\yscale{{{yscale}}}
     \def\customheader{{
     \size[13]\bf \the\cavename{{}} 1567/{cadastral_number}\ss
     \si \par \size[9]Gamswandkar, Höllengebirge \ss
@@ -23,30 +35,15 @@ layout local-p
       \def\maplayout{{
       \legendbox{{0}}{{100}}{{NW}}{{\customheader}}
       \legendbox{{0}}{{70}}{{NW}}{{\size[13]\bf GRUNDRISS}}
+      \legendbox{{0}}{{50}}{{NW}}{{\size[13]\bf LÄNGSSCHNITT}}
 
-      \legendbox{{30}}{{5}}{{S}}{{\northarrow}}
-      \legendbox{{30}}{{3}}{{N}}{{\scalebar}}
-      \legendbox{{90}}{{100}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
-      \legendbox{{90}}{{100}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
-
+      \legendbox{{70}}{{55}}{{S}}{{\northarrow}}
+      \legendbox{{70}}{{53}}{{N}}{{\scalebar}}
+      \legendbox{{90}}{{95}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
+      \legendbox{{90}}{{95}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
+      \legendbox{{100}}{{45}}{{NE}}{{\hbox{{\loadpicture{{"data/{basefile}/{basefile}-L.pdf"}}}}}}
       }}
   endcode
 endlayout
 
-layout local-e
-  copy detailed-e
-  scale 1 500
-  symbol-show point label
-  symbol-show point station-name
-
-  code tex-map
-    \def\maplayout{{
-    \legendbox{{0}}{{50}}{{N}}{{\size[13]\bf LÄNGSSCHNITT}}
-
-    }}
-  endcode
-endlayout
-
-lang de
 export map -projection plan -o data/{basefile}/{basefile}-G.pdf -layout local-p
-export map -projection extended -o data/{basefile}/{basefile}-L.pdf -layout local-e

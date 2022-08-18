@@ -4,15 +4,15 @@ survey gamswandkluft -title "Gamswandkarkluft" -entrance 0
     # fault controlled cave
 
    input "gamswandkluft-1p.th2"
-  # input "gamswandkluft-1s.th2"
+   input "gamswandkluft-1s.th2"
 
    map m-all-p -projection plan
      gamswandkluft-1p
    endmap
 
-  # map m1s -projection extended
-  #   gamswandkluft-1s
-  # endmap
+   map m-all-e -projection extended
+     gamswandkluft-1s
+   endmap
 
   centerline
    # meta-data

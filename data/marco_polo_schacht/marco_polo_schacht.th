@@ -1,16 +1,21 @@
 # 2021.07.17 created by TopoDroid v 5.1.40
 
 survey marco_polo_schacht -title "Marco Polo Schacht"
-    # small pit next to calibration cave 
+    # small pit next to calibration cave
 
     input marco_polo_schacht-1p.th2
-
+    input marco_polo_schacht-1s.th2
+    
     map m-all-p
       marco_polo_schacht-1p
     endmap
 
+    map m-all-e -projection extended
+      marco_polo_schacht-1s
+    endmap
+
   centerline
-    date 2021.07.17 
+    date 2021.07.17
     explo-team "Tanguy Racine"
     explo-team "Chloe Snowling"
     team "Tanguy Racine" insts

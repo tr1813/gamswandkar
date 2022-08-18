@@ -4,10 +4,15 @@ survey hohes_delta_hoehle -title "Hohes-Delta-Hoehle" -entrance 0
     # calibration cave
 
   input hohes_delta_hoehle-1p.th2
+  input hohes_delta_hoehle-1s.th2
 
   map m-all-p -projection plan
     hohes_delta_hoehle-2p
     hohes_delta_hoehle-1p
+  endmap
+
+  map m-all-e -projection extended
+    hohes_delta_hoehle-1s
   endmap
 
   centerline

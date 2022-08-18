@@ -14,14 +14,10 @@ parser.add_argument(
 	"--cadastral_number", type = str, metavar ='YYY',nargs =1,
 	help = 'Cadastral number, e.g.: 11')
 
-parser.add_argument(
-	"--yscale", type = str, metavar ='n',nargs =1,
-	help = 'The y spread of the map elements, between 0 and 100')
 args = parser.parse_args()
 
 SURVEY_FILE = args.survey_file
 CAD_NUM = args.cadastral_number[0]
-YSCALE = args.yscale[0]
 
 # read the gamswandkar file to find the coordinates of the cave of interest.
 with open("data/gamswandkar.th", "r") as f:
@@ -54,8 +50,7 @@ with open("temp.thconfig", 'w+') as f:
                             cadastral_number = CAD_NUM,
                             x = X,
                             y = Y,
-                            z = "{:.0f}".format(float(Z)),
-                            yscale = YSCALE))
+                            z = "{:.0f}".format(float(Z))))
 f.close()
 # compile with therion
 subprocess.check_output('''therion "temp.thconfig"''', shell = True)
