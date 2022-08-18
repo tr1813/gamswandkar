@@ -133,7 +133,7 @@ line floor-step
   657.8541 276.5834 656.9866 295.9575 643.6849 301.7409
 endline
 
-line border -close on -id gamswandkluft-1p_u_smallblocks_MY_1 -visibility off
+line border -close on -id gamswandkluft-1p_u_smallblocks_1 -visibility off
   754.5005 281.0112
   768.4046 280.1933
   782.3087 270.3787
@@ -152,11 +152,11 @@ line border -close on -id gamswandkluft-1p_u_smallblocks_MY_1 -visibility off
   739.3696 292.8706 741.8233 281.8291 741.8233 281.8291
 endline
 
-area u:smallblocks_MY -attr scale 1.1
-  gamswandkluft-1p_u_smallblocks_MY_1
+area u:smallblocks -attr scale 1.1
+  gamswandkluft-1p_u_smallblocks_1
 endarea
 
-line border -close on -id gamswandkluft-1p_u_smallblocks_MY_2 -visibility off
+line border -close on -id gamswandkluft-1p_u_smallblocks_2 -visibility off
   347.0 141.8317
   428.8341 146.4584
   452.5458 162.9409
@@ -170,8 +170,8 @@ line border -close on -id gamswandkluft-1p_u_smallblocks_MY_2 -visibility off
   307.9625 147.3259
 endline
 
-area u:smallblocks_MY -attr scale 1.1
-  gamswandkluft-1p_u_smallblocks_MY_2
+area u:smallblocks -attr scale 1.1
+  gamswandkluft-1p_u_smallblocks_2
 endarea
 
 line wall:invisible 

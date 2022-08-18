@@ -1,16 +1,21 @@
 # 2021.07.13 created by TopoDroid v 5.1.40
 
-survey hraeswelgr -title "hraeswelgr"
+survey hraeswelgr -title "Hraeswelgr"
     # cave of cold wind ending at draughting dig - very promising!!
 
     input hraeswelgr-1p.th2
-    
+    input hraeswelgr-1s.th2
+
     map m-all-p -projection plan
       hraeswelgr-1p
     endmap
+
+    map m-all-e -projection extended
+      hraeswelgr-1s
+    endmap
   centerline
     # metadata
-    date 2021.07.13 
+    date 2021.07.13
     team "Tanguy Racine"
     team "Attila Szórádi"
 

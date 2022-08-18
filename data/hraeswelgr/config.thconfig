@@ -1,0 +1,37 @@
+source hraeswelgr.th
+
+input ../../layouts/detailed-p.thl
+input ../../layouts/detailed-e.thl
+
+layout local-p
+  copy detailed-p
+  symbol-show point label
+  symbol-show point station-name
+
+  \def\customheader{
+  \size[13]\bf \the\cavename \ss
+  \si \par \size[9]Gamswandkar \ss
+  \par L: \the\cavelength
+  \par H: \the\cavedepth
+  \par Entwurf und Zeichnung: {{author}}
+  \par {{group}}}
+
+  \def\maplayout{
+
+  \legendbox{\the\numexpr\xcenter+15\relax}{\the\numexpr\ycenter +1*\yscale\relax}{N}{\customheader}
+  \legendbox{\the\numexpr\xcenter+12\relax}{\the\numexpr\ycenter - \yscale\relax}{N}{\northarrow}
+  \legendbox{\the\numexpr\xcenter+12\relax}{\the\numexpr\ycenter - 8*\yscale\relax}{N}{\scalebar}
+  \legendbox{\the\numexpr\xcenter-45\relax}{\the\numexpr\ycenter - 1*\yscale\relax}{W} {\hbox{\loadpicture{"/Volumes/Tanguy Main 1/QGIS/ultima-patagonia-topo/logo/CT-LOGO-150x150-BLACK-ALPHA-FR.jpg"}}}
+  }
+  endcode
+endlayout
+
+layout local-e
+  copy detailed-e
+  symbol-show point label
+  symbol-show point station-name
+endlayout
+
+lang de
+export map -projection plan -o hraeswelgr-G.pdf -layout local-p
+export map -projection extended -o hraeswelgr-L.pdf -layout local-e

@@ -7,7 +7,7 @@ survey gamswandkar -title "Gamswandkar Cave Survey Project"
 input gamswandkluft/gamswandkluft.th
 input hohes_delta_hoehle/hohes_delta_hoehle.th
 input hraeswelgr/hraeswelgr.th   # promising dig at the end.
-input rampage_halle/rampage_halle.th 
+input rampage_halle/rampage_halle.th
 input gurgeltest_hoehle/gurgeltest_hoehle.th
 input gurgeltest_hoehle_III/gurgeltest_hoehle_III.th
 input halbmond_schacht/halbmond_schacht.th
@@ -30,12 +30,12 @@ input cave_21/cave_21.th
 centreline
 	cs lat-long
     # ELEVATIONS SAMPLED FROM LASERSCAN 2012
-    fix 1@ballonschacht 47.794109 13.683278 1664.66 # 10 m  deep shaft, rather narrow, some snow at the bottom.
+  fix 1@ballonschacht 47.794109 13.683278 1664.66 # 10 m  deep shaft, rather narrow, some snow at the bottom.
 	fix 0@gamswandkluft 47.793107 13.683071 1678.95 # fault controlled cave, now surveyed
 	fix 0@entrance.gamswandschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
- 	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave  
+ 	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave
  	fix 0@gurgeltest_hoehle 47.792719 13.684126 1648.85
- 	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79 
+ 	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79
 
 	fix 8@hohes_delta_hoehle 47.79260 13.68344 1669.51 # calibration cave, now surveyed
 	fix 0@hraeswelgr 47.794617 13.682573 1688.11 # windy cave, ending in draughty dig
@@ -46,7 +46,7 @@ centreline
 
 
 	## ELEVATIONS AND LOCATION ESTIMATES
-	fix 0@cave_3 47.79281 13.68421 1650 # 8  m shaft next to Gurgeltest cave 
+	fix 0@cave_3 47.79281 13.68421 1650 # 8  m shaft next to Gurgeltest cave
 	fix 0@cave_6 47.79217 13.68419 1618 # shaft 2 on way towards gamswandkarschacht
 	fix 0@cave_7 47.79315 13.68343 1675 # no description yet available
 	fix 0@cave_10 47.79339 13.68524  1620 #
@@ -55,7 +55,7 @@ centreline
 	fix 0@cave_19 47.79135 13.68341 1660 # elevation is rough estimate, 80 m above gamswandschacht, crevasse or old canyon, blocked from top.
 	fix 0@cave_21 47.79311 13.68364 1667 # in a canyon, shaft 7 m deep, previous keyhole profile.
 	fix 0@cave_22 47.79351 13.68338 1675 # cave with snow and two entrances and a good draught
-endcentreline	
+endcentreline
 
 # LIST OF POIs
 # 1-10 POIs, numbered, are caves that are not yet thought promising enough.

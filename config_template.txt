@@ -1,0 +1,41 @@
+source data/{basefile}/{basefile}.th
+
+input layouts/detailed-p.thl
+input layouts/detailed-e.thl
+
+layout local-p
+  copy detailed-p
+  symbol-show point label
+  symbol-show point station-name
+
+  code tex-map
+    \def\yscale{{{yscale}}}
+    \def\customheader{{
+    \size[13]\bf \the\cavename{{}} 1567/{cadastral_number}\ss
+    \si \par \size[9]Gamswandkar, Höllengebirge \ss
+    \par Koordinaten (WGS84): {x}°E / {y}°N
+    \par L: \the\cavelength, H: \the\cavedepth, HE: --, Sh: {z} m
+    \par Vermessung: \the\topoteam
+    \par Entwurf und Zeichnung: Tanguy Racine (2022)
+    \par LV Höhlenkunde Wien/ NÖ, Vf Höhlenkunde Ebensee}}
+
+      \def\maplayout{{
+      \legendbox{{0}}{{\the\numexpr 100+\yscale\relax}}{{N}}{{\customheader}}
+      \legendbox{{-10}}{{\the\numexpr -\yscale\relax}}{{S}}{{\northarrow}}
+      \legendbox{{-10}}{{\the\numexpr -\yscale\relax}}{{N}}{{\scalebar}}
+      \legendbox{{110}}{{\the\numexpr -\yscale\relax}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
+      \legendbox{{110}}{{\the\numexpr -\yscale\relax}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
+
+      }}
+  endcode
+endlayout
+
+layout local-e
+  copy detailed-e
+  symbol-show point label
+  symbol-show point station-name
+endlayout
+
+lang de
+export map -projection plan -o data/{basefile}/{basefile}-G.pdf -layout local-p
+export map -projection extended -o data/{basefile}/{basefile}-L.pdf -layout local-e

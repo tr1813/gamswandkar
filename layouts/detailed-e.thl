@@ -47,9 +47,10 @@ code metapost
       draw (-10, 3*ysize/5) -- (-7, 3*ysize/5);
       draw (-10, 4*ysize/5) -- (-7, 4*ysize/5);
        fi fi;
+
       if xpos <0 : draw (-10,0) -- (0,0) fi;
       pickup PenD;
-      draw (if xpos <0: 0 else: -xsize/2 fi,0) -- (if xpos > 0: 0 else: xsize/2 fi,0) withcolor 0.1black+0.5white dashed evenly xscaled 0.25;
+      draw (if xpos <0: 0 else: -xsize/2 fi,0) -- (if xpos > 0: 0 else: xsize/2 fi,0) withcolor 0.1black+0.5white dashed evenly xscaled 0.5;
      enddef;
 
 
@@ -114,7 +115,7 @@ code metapost
       thfill (-.1u,-.1u)..(-.1u,.1u)..(.1u,.1u)..(.1u,-.1u)..cycle withcolor(0.1,0.7,0.9);
     enddef;
 
-    def p_u_grass_MY (expr P,R,S,A)=
+    def p_u_grass (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
       pickup PenC;
@@ -199,7 +200,7 @@ enddef;
       thfill (-.2u,-.2u)--(-.2u,.2u)--(.2u,.2u)..(.2u,-.2u)--cycle;
     enddef;
     
-    def p_u_waterdrip_MY (expr P,R,S,A)=
+    def p_u_waterdrip (expr P,R,S,A)=
       U:=(.2u,.2u);
       T:=identity aligned A rotated R scaled S shifted P;
       pickup PenD;
@@ -246,33 +247,6 @@ enddef;
       endfor;
       fi;
     enddef;
-
-    # DEBRIS
-
-    def l_wall_debris_MY (expr P)=
-      T:=identity;
-      cas := 0;
-      dlzka := arclength P;
-      if dlzka > 0:
-      mojkrok:=adjust_step(dlzka, 0.2u);
-      pickup PenC;
-      forever:
-      t_0 := arctime(cas) of P;
-      t_end := arctime(cas+mojkrok) of P;
-      t1 := arctime (cas + (3+0.5*normaldeviate)/10*mojkrok) of P;
-      t2 := arctime (cas + (8-0.5*normaldeviate)/10*mojkrok) of P;
-      t3 := arctime (cas + (6+0.5*normaldeviate)/10*mojkrok) of P;
-      sk := 1-.25*normaldeviate;
-      q := (point t_0 of P + .02*sk*u * unitvector(thdir(P,t_0))) .. ((point t1 of P) - .06*sk*u * unitvector(thdir(P,t1) rotated (88+normaldeviate*2))) ..
-      ((point t2 of P) + .03*sk*u * unitvector(thdir(P,t2) rotated (-20+normaldeviate*2))) .. ((point t3 of P) - .07*sk*u *unitvector(thdir(P,t3) rotated (-20+normaldeviate*2))) .. cycle;
-      
-      thclean q;
-      thfill q withcolor(0.7,0.3,0.2);
-      cas := cas + mojkrok;
-      exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
-      endfor;
-      fi;
-    enddef;
     
     # FLOWSTONE
     
@@ -311,6 +285,31 @@ enddef;
       pickup PenA;
       thdraw P;
     enddef;
+
+    def l_wall_debris_MY (expr P)=
+      T:=identity;
+      cas := 0;
+      dlzka := arclength P;
+      if dlzka > 0:
+      mojkrok:=adjust_step(dlzka, 0.2u);
+      pickup PenC;
+      forever:
+      t_0 := arctime(cas) of P;
+      t_end := arctime(cas+mojkrok) of P;
+      t1 := arctime (cas + (3+0.5*normaldeviate)/10*mojkrok) of P;
+      t2 := arctime (cas + (8-0.5*normaldeviate)/10*mojkrok) of P;
+      t3 := arctime (cas + (6+0.5*normaldeviate)/10*mojkrok) of P;
+      sk := 1-.25*normaldeviate;
+      q := (point t_0 of P + .02*sk*u * unitvector(thdir(P,t_0))) .. ((point t1 of P) - .06*sk*u * unitvector(thdir(P,t1) rotated (88+normaldeviate*2))) ..
+      ((point t2 of P) + .03*sk*u * unitvector(thdir(P,t2) rotated (-20+normaldeviate*2))) .. ((point t3 of P) - .07*sk*u *unitvector(thdir(P,t3) rotated (-20+normaldeviate*2))) .. cycle;
+      
+      thclean q;
+      thfill q withcolor(0.7,0.3,0.2);
+      cas := cas + mojkrok;
+      exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+      endfor;
+      fi;
+    enddef;
     
     # ICE
     def l_wall_ice_MY (expr P) = 
@@ -342,14 +341,6 @@ enddef;
     
     
     #### TYPES INSIDE A PASSAGE
-    # WOODEN DEBRIS CUSTOM
-
-    def l_u_woody_MY (expr P)=
-    T:= identity;
-    thclean P;
-    thdraw P withpen PenD withcolor (0.3,0.1,0.05);
-    thfill P withpen PenD withcolor (0.4,0.15,0.075);
-    enddef;
     
     # EXPOSURE OF BEDROCK
 
@@ -358,7 +349,7 @@ enddef;
       thdraw P withpen PenB withcolor (0,0.7,0.9) dashed evenly xscaled 0.5;
     enddef;
     
-    def l_u_texture_MY (expr P)=
+    def l_u_texture (expr P)=
       T:=identity;
       thdraw P withpen PenD withcolor (0.3,0.3,0.3);
     enddef;
@@ -609,10 +600,10 @@ enddef;
     initsymbol("p_waterflow_MY");
     
     initsymbol("p_u_logger_MY");
-    initsymbol("p_u_waterdrip_MY");
+    initsymbol("p_u_waterdrip");
     initsymbol("p_u_sampled_MY");
     initsymbol("p_u_probe_MY");
-    initsymbol("p_u_grass_MY");
+    initsymbol("p_u_grass");
    
    ## lines
     # redefinitions
@@ -620,20 +611,19 @@ enddef;
     initsymbol("l_wall_blocks_MY");
     initsymbol("l_wall_ice_MY");
     initsymbol("l_wall_flowstone_MY");
-    initsymbol("l_wall_clay_MY");
     initsymbol("l_wall_debris_MY");
+    initsymbol("l_wall_clay_MY");
     
     # others
     initsymbol("l_rockborder_MY");
     initsymbol("l_survey_cave_MY");
     initsymbol("l_pit_MY");
     
-
+    
     # user defined
-    initsymbol("l_u_texture_MY");
+    initsymbol("l_u_texture");
     initsymbol("l_u_snowlevel_MY");
     initsymbol("l_u_wall_flowstone_MY");
-    initsymbol("l_u_woody_MY");
    
    ## areas
     # redefinitions
@@ -654,6 +644,7 @@ endcode
  ## survey lines and stations
  symbol-assign point station AUT
  symbol-assign line survey MY
+ symbol-assign line wall:debris MY
  symbol-assign point station MY
  symbol-assign point water-flow MY
  symbol-assign point station:fixed MY
@@ -685,7 +676,6 @@ endcode
  
  ## sedimentary fills
  symbol-assign line rock-border MY
- symbol-assign line wall:debris MY
  symbol-assign area clay MY
  symbol-assign area sand MY
  symbol-assign area pebbles MY
@@ -714,16 +704,16 @@ endlayout
 text en "point u:logger_MY"  "logger"
 text en "line u:flowstone_MY" "flowstone  wall"
 text en "line u:openshaft_MY" "open shaft"
-text en "line u:texture_MY" "bedrock exposed"
-text en "point u:waterdrip_MY" "water drips"
+text en "line u:texture" "bedrock exposed"
+text en "point u:waterdrip" "water drips"
 text en "point u:sampled_MY" "sample taken"
 text en "line u:wall_flowstone_MY" "wall flowstone"
-text en "point u:grass_MY" "grass"
+text en "point u:grass" "grass"
 
 
 #german labels
 text de "line u:openshaft_MY" "Eingangskessel"
-text de "line u:texture_MY" "Felsboden"
+text de "line u:texture" "Felsboden"
 text de "line u:flowstone_MY" "flächiger Sinter"
 
 
