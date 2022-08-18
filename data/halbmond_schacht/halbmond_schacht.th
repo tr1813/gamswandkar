@@ -1,6 +1,6 @@
 # 2021.07.14 created by TopoDroid v 5.1.40
 
-survey halbmond_schacht -title "Halbmondschacht"
+survey halbmond_schacht -title "Halbmondschacht" -entrance 0
     # snow/ice cave towards spitzalm
 
     input halbmond_schacht-1p.th2

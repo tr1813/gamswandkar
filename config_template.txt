@@ -26,8 +26,8 @@ layout local-p
 
       \legendbox{{30}}{{5}}{{S}}{{\northarrow}}
       \legendbox{{30}}{{3}}{{N}}{{\scalebar}}
-      \legendbox{{90}}{{2}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
-      \legendbox{{90}}{{2}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
+      \legendbox{{90}}{{100}}{{SE}}{{\hbox{{\loadpicture{{"layouts/logos/VHEbensee.jpg"}}}}}}
+      \legendbox{{90}}{{100}}{{SW}}{{\hbox{{\loadpicture{{"layouts/logos/LfHWNO.jpg"}}}}}}
 
       }}
   endcode

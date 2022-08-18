@@ -1,13 +1,12 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 0 0 948.600000 513.700000
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {804.750000 1 1.0} {358.460000 0} "/Users/AchilleTalon/Documents/gamswandkar/data/gamswandkluft/gamswandkluft-1p.xvi" 0 {}
 
 scrap gamswandkluft-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
 point 648.3728 389.6635 label -align tl -scale s -text "<bf>Gamswandkluft<br>1567/NEU"
 point 832.1964 391.7402 entrance -orientation 260
-line u:texture 
+line u:texture
   657.785 276.825
   657.785 276.825 672.0233 289.4513 673.0354 289.5959
   674.0474 289.7404 684.602 289.1621 687.9274 290.6079
@@ -89,7 +88,7 @@ line rock-border -close on
   179.03 141.76
 endline
 
-line floor-step 
+line floor-step
   802.15 346.17
   802.36 346.7 802.66 347.21 802.78 347.76
   802.88 348.19 802.74 348.64 802.81 349.07
@@ -98,19 +97,19 @@ line floor-step
   803.14 356.43 801.93 363.39 798.03 368.29
 endline
 
-line floor-step 
+line floor-step
   790.93 338.25
   786.51 342.67 784.2 348.72 781.7 353.86
   780.75 355.8 774.45 354.89 772.67 357.84
   772.58 358.0 772.65 358.31 772.46 358.43
 endline
 
-line floor-step 
+line floor-step
   673.4433 247.5467
   664.4033 244.5267 660.3792 223.6367 660.4792 216.5167
 endline
 
-line floor-step 
+line floor-step
   607.49 283.73
   602.74 275.01 590.02 262.94 592.92 252.02
   594.95 244.36 607.03 243.31 609.01 237.01
@@ -118,7 +117,7 @@ line floor-step
   614.49 212.67 629.4358 200.765 631.6058 197.015
 endline
 
-line floor-step 
+line floor-step
   455.53 161.22
   455.53 174.12 459.52 188.64 454.46 201.06
   450.6 210.55 437.84 214.37 428.77 215.19
@@ -126,7 +125,7 @@ endline
 
 point 179.21 133.19 gradient -orientation 77.99998742852345
 point 138.92 120.29 gradient -orientation 247.9999815222332
-line floor-step 
+line floor-step
   672.6016 249.98
   658.4324 267.6192
   657.8541 276.5834
@@ -174,12 +173,12 @@ area u:smallblocks -attr scale 1.1
   gamswandkluft-1p_u_smallblocks_2
 endarea
 
-line wall:invisible 
+line wall:invisible
   769.6314 395.9243
   720.8924 406.9975
 endline
 
-line wall:invisible 
+line wall:invisible
   845.6949 341.1259
   789.6697 379.5666
 endline
@@ -199,7 +198,7 @@ line wall -close on -outline in
   805.0399 346.4171 809.6666 350.4654 809.6666 350.4654
 endline
 
-line wall 
+line wall
   789.6697 379.5666
   789.6697 379.5666 784.3534 381.2023 783.1266 379.5666
   781.8998 377.9308 778.6282 371.7966 778.6282 371.7966
@@ -221,7 +220,7 @@ line wall
   769.6314 395.9243
 endline
 
-line wall 
+line wall
   720.8924 406.9975
   719.7358 405.5517 720.3141 396.2983 720.0249 394.8525
   719.7358 393.4067 718.769 385.1491 716.7449 383.7033
@@ -346,4 +345,3 @@ line wall
 endline
 
 endscrap
-

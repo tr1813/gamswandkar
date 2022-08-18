@@ -1,13 +1,23 @@
 # 2021.07.17 created by TopoDroid v 5.1.40
 
-survey gurgeltest_hoehle_III -title "Gurgeltest Höhle III"
-    # shaft next to gurgel test 
+survey gurgeltest_hoehle_III -title "Gurgeltest Höhle III" -entrance 6
+    # shaft next to gurgel test
 
+    input gurgeltest_hoehle_III-1p.th2
+    input gurgeltest_hoehle_III-1s.th2
+    
+    map m-all-p -projection plan
+      gurgeltest_hoehle_III-1p
+    endmap
 
+    map m-all-e -projection extended
+      gurgeltest_hoehle_III-1s
+    endmap
 
   centerline
-    date 2021.07.17 
-    # team Tanguy Racine 
+    date 2021.07.17
+    team "Tanguy Racine"
+    team "Thomas Weigner"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

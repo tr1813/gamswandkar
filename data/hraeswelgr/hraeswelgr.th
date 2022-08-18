@@ -1,6 +1,6 @@
 # 2021.07.13 created by TopoDroid v 5.1.40
 
-survey hraeswelgr -title "Hraeswelgr"
+survey hraeswelgr -title "Hraeswelgr-Höhle" -entrance 0
     # cave of cold wind ending at draughting dig - very promising!!
 
     input hraeswelgr-1p.th2

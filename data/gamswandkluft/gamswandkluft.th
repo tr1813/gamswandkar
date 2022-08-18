@@ -1,7 +1,7 @@
 # 2021.07.14 created by TopoDroid v 5.1.40
 
-survey gamswandkluft -title "gamswandkluft"
-    # fault controlled cave 
+survey gamswandkluft -title "Gamswandkarkluft" -entrance 0
+    # fault controlled cave
 
    input "gamswandkluft-1p.th2"
   # input "gamswandkluft-1s.th2"
@@ -16,7 +16,7 @@ survey gamswandkluft -title "gamswandkluft"
 
   centerline
    # meta-data
-    date 2021.07.13 
+    date 2021.07.13
     explo-date 2021.07.13
     team "Tanguy Racine" notes dog
     team "Attila Szórádi" insts

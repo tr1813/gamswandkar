@@ -1,5 +1,5 @@
-survey gamswandschacht
-  
+survey gamswandkarschacht -title "Gamswandkarschacht" -entrance 0@entrance
+
   input entrance/entrance.th
 
   # there will be more equates
@@ -7,5 +7,5 @@ survey gamswandschacht
   map m-all-p -projection plan
     m-all-p@entrance
   endmap
-  
+
 endsurvey

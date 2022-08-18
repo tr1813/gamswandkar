@@ -4529,7 +4529,7 @@ endline
 point 196.85 -236.22 station -name "1"
 point -128.09 -97.29 station -name "0"
 point 116.77 -1638.13 station -name "2"
-point -3820.24 -1638.13 station -name "2A"
+point -3820.24 -1638.13 station -name "2"
 point -3273.95 -3658.08 station -name "3"
 point -3860.99 -3131.17 station -name "5"
 point -4436.09 -2692.02 station -name "6"

@@ -1,9 +1,11 @@
 # 2021.07.15 created by TopoDroid v 5.1.40
 
 survey entrance -title "Gamswandschacht Entrance"
-    # big shaft east of Gamswand 
+    # big shaft east of Gamswand
 
     input entrance-p.th2
+
+    input entrance-s.th2
 
     map m-all-p -projection plan
       m1p [-60 0 m] none
@@ -28,9 +30,10 @@ survey entrance -title "Gamswandschacht Entrance"
       entrance-4p
     endmap
 
+
   centerline
-    date 2021.07.15 
-    # team Tanguy Racine 
+    date 2021.07.15
+    # team Tanguy Racine
     units length meters
     units compass clino degrees
     data normal from to length compass clino

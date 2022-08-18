@@ -30,10 +30,16 @@ with open("data/gamswandkar.th", "r") as f:
 f.close()
 
 # find the fixes line:
-
 for dataline in DATA:
-    if ("fix" in dataline) and (SURVEY_FILE in dataline):
-        FIX = dataline.split(" ")
+	if ("fix" in dataline) and (SURVEY_FILE in dataline):
+		FIX = dataline.split(" ")
+		print(FIX[2:5])
+#for dataline in DATA:
+#    if ("fix" in dataline) and (SURVEY_FILE in dataline):
+#		FIX = dataline.split(" ")
+#		  print(FIX)
+#	else:
+#		print()
 
 Y,X,Z =FIX[2:5]
 # read and format the template config file

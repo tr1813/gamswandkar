@@ -14,7 +14,7 @@ input halbmond_schacht/halbmond_schacht.th
 input marco_polo_schacht/marco_polo_schacht.th
 input abflussrohr/abflussrohr.th
 input ballonschacht/ballonschacht.th
-input gamswandschacht/gamswandschacht.th
+input gamswandkarschacht/gamswandkarschacht.th
 
 # not yet surveyed
 input cave_3/cave_3.th
@@ -32,10 +32,10 @@ centreline
     # ELEVATIONS SAMPLED FROM LASERSCAN 2012
   fix 1@ballonschacht 47.794109 13.683278 1664.66 # 10 m  deep shaft, rather narrow, some snow at the bottom.
 	fix 0@gamswandkluft 47.793107 13.683071 1678.95 # fault controlled cave, now surveyed
-	fix 0@entrance.gamswandschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
- 	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave
- 	fix 0@gurgeltest_hoehle 47.792719 13.684126 1648.85
- 	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79
+	fix 0@entrance.gamswandkarschacht  47.791189 13.684166 1576.75 # main shaft of gamswandkar
+	fix 6@gurgeltest_hoehle 47.792733 13.684049 1651.28 # gurgling sound and tantalising echo at the bottom end of the cave
+	#fix 0@gurgeltest_hoehle 47.792719 13.684126 1648.85
+	fix 6@gurgeltest_hoehle_III 47.792755 13.684179 1649.79
 
 	fix 8@hohes_delta_hoehle 47.79260 13.68344 1669.51 # calibration cave, now surveyed
 	fix 0@hraeswelgr 47.794617 13.682573 1688.11 # windy cave, ending in draughty dig
@@ -66,8 +66,10 @@ map m-all-p
 	m-all-p@hohes_delta_hoehle
 	m-all-p@gamswandkluft
 	m-all-p@hraeswelgr
-	m-all-p@gamswandschacht
+	m-all-p@gamswandkarschacht
 	m-all-p@halbmond_schacht
 	m-all-p@abflussrohr
+	m-all-p@gurgeltest_hoehle
+	m-all-p@gurgeltest_hoehle_III
 endmap
 endsurvey

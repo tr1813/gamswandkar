@@ -1,7 +1,9 @@
 source data/gamswandkar.th
 
 export model -o outputs/gamswandkar.3d -fmt survex
+export model -o outputs/gamswandkar.lox
 export model -o outputs/gamswandkar.kml
+export map -o outputs/gamswandkar.kml
 
 input layouts/detailed-p.thl
 
@@ -15,6 +17,8 @@ layout local-p
 	symbol-show point label
 endlayout
 
+lang de
+maps-offset off
 export map -o outputs/gamswandkar-p.pdf -projection plan -layout local-p
 
-export model -o outputs/gamswandkar-esri -fmt esri
+export map -o outputs/gamswandkar-esri -fmt esri

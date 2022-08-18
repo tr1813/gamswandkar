@@ -1,0 +1,3690 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1248.300000 858.400000
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap abflussrohr-4s -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
+
+line wall:blocks 
+  -523.335 -15.517
+  -508.665 -5.737 -488.565 -8.387 -471.895 -4.887
+  -451.125 -0.537 -430.935 10.013 -409.955 13.123
+  -378.245 17.833 -343.695 15.293 -313.245 26.243
+  -303.245 29.843 -292.525 31.453 -282.795 34.513
+  -275.275 36.873 -269.475 45.353 -262.395 48.953
+  -257.595 51.393 -246.845 57.693 -242.085 54.523
+endline
+
+line wall 
+  -271.455 217.753
+  -285.265 210.473 -295.115 196.183 -307.375 185.513
+  -308.465 184.553 -309.725 183.803 -310.845 182.873
+  -311.825 182.063 -312.675 181.123 -313.645 180.303
+  -328.985 167.393 -351.325 157.213 -364.275 142.703
+  -368.445 138.023 -375.935 131.493 -376.995 124.653
+  -377.375 122.213 -382.725 109.713 -384.585 108.933
+  -389.845 106.723 -396.025 97.703 -401.065 92.213
+  -404.415 88.563 -410.885 88.923 -414.585 86.413
+  -425.805 78.813 -432.555 66.093 -442.245 57.963
+  -453.985 48.113 -470.915 44.003 -484.185 34.223
+  -490.175 29.813 -494.695 22.883 -501.345 18.993
+  -507.015 15.673 -516.305 13.553 -519.555 7.063
+endline
+
+line wall 
+  155.055 560.813
+  135.895 541.643 117.065 519.183 100.995 497.333
+  100.305 496.393 99.345 495.673 98.475 494.913
+  78.895 477.843 59.265 459.683 40.055 442.473
+  39.735 442.193 39.145 442.333 38.845 442.023
+  38.345 441.513 37.685 439.443 37.275 438.583
+  34.095 431.823 28.985 424.973 22.865 418.853
+  13.875 409.853 -1.485 410.873 -11.365 404.463
+  -18.955 399.543 -20.135 389.553 -24.455 384.183
+  -30.015 377.283 -38.975 371.023 -45.825 365.433
+  -48.165 363.533 -55.195 356.953 -58.075 356.933
+endline
+
+line wall 
+  -64.135 340.633
+  -70.185 332.313 -78.955 325.393 -84.935 316.423
+  -92.695 304.783 -95.395 289.043 -105.255 278.713
+  -107.635 276.223 -118.975 274.983 -122.115 274.333
+  -134.175 271.843 -145.855 263.323 -159.585 261.203
+  -160.025 261.133 -160.415 260.873 -160.845 260.753
+  -161.125 260.663 -161.445 260.723 -161.685 260.583
+  -168.975 256.263 -172.945 245.793 -177.895 240.253
+  -178.165 239.953 -178.705 240.143 -179.085 240.003
+  -198.065 232.623 -217.305 222.963 -235.595 215.973
+  -239.995 214.293 -257.555 214.973 -257.265 210.543
+endline
+
+line wall:blocks 
+  -143.905 82.433
+  -134.085 92.253 -118.065 102.293 -105.155 107.023
+  -101.775 108.263 -97.535 108.253 -94.455 110.133
+  -87.675 114.263 -79.665 121.993 -71.185 121.993
+endline
+
+line wall:blocks 
+  -231.995 49.873
+  -228.325 53.543 -222.155 54.383 -217.015 54.383
+endline
+
+line wall:blocks 
+  -125.105 188.543
+  -113.665 194.383 -104.265 205.273 -91.875 209.893
+  -71.625 217.453 -49.725 223.063 -30.975 233.613
+  -24.635 237.173 -18.535 241.453 -13.315 246.163
+  -12.275 247.103 -11.025 249.643 -9.665 250.313
+  6.115 258.073 24.505 259.633 38.265 266.903
+  46.845 271.433 53.125 282.543 57.175 290.773
+  60.195 296.913 72.655 296.403 77.655 300.003
+  90.305 309.103 96.235 325.843 107.875 335.873
+  110.805 338.393 114.245 340.903 116.915 343.573
+endline
+
+line wall 
+  -114.305 193.273
+  -108.665 181.983 -115.475 167.983 -113.625 156.423
+  -113.065 152.903 -108.015 151.523 -106.615 148.283
+  -100.305 133.773 -96.585 117.623 -92.705 102.073
+endline
+
+line u:user 
+  -318.775 83.543
+  -309.015 68.903 -306.355 43.543 -304.735 26.553
+  -304.655 25.733 -304.795 24.903 -304.825 24.073
+endline
+
+line u:user 
+  -159.265 215.843
+  -163.215 215.843 -167.445 215.673 -171.325 216.743
+  -172.675 217.123 -175.625 220.343 -174.435 219.593
+  -173.125 218.773 -173.335 216.693 -173.055 215.173
+  -171.085 204.783 -170.315 193.513 -170.185 182.973
+  -170.005 167.933 -175.925 153.073 -178.195 138.393
+  -178.965 133.423 -178.985 128.213 -179.285 123.203
+  -180.395 104.723 -184.515 85.823 -184.745 67.203
+  -184.785 63.323 -185.835 59.243 -187.235 55.443
+endline
+
+line border -close on -id abflussrohr-4s_snow_1 -visibility on
+  429.095 442.333
+  207.215 357.553
+  207.215 376.493 127.055 375.573 130.935 394.163
+  131.665 397.643 131.075 405.153 134.175 407.843
+  134.625 408.223 135.235 408.363 135.785 408.583
+  146.385 412.903 163.625 412.593 175.075 413.303
+  175.435 413.333 175.815 413.183 176.145 413.303
+  194.715 420.063 209.035 434.713 224.445 444.083
+  231.075 448.123 239.785 450.363 246.525 456.033
+  266.125 472.523 253.365 507.873 266.985 524.903
+  267.155 525.123 267.365 525.293 267.555 525.483
+  282.355 532.883 300.465 525.943 315.275 528.363
+  329.575 530.683 344.125 534.083 358.255 536.413
+  367.605 537.953 376.885 546.873 387.145 545.043
+  390.015 544.533 397.885 544.583 400.365 543.313
+  404.575 541.173 407.145 532.223 413.335 532.963
+  427.055 534.593 435.605 550.353 448.045 556.243
+  429.095 442.333
+  429.095 442.333
+endline
+
+area snow 
+  abflussrohr-4s_snow_1
+endarea
+
+line wall 
+  61.115 399.893
+  60.535 399.893 59.955 399.893 59.375 399.893
+  58.215 399.893 57.045 400.023 55.885 399.893
+  54.645 399.763 53.435 399.393 52.225 399.113
+  50.925 398.803 49.555 398.693 48.345 398.143
+  46.745 397.403 45.395 396.233 43.895 395.303
+  42.305 394.323 40.605 393.523 39.105 392.423
+  34.005 388.713 17.975 381.683 15.915 375.493
+  14.435 371.053 16.435 362.513 17.705 358.263
+  16.725 354.533 34.765 361.903 37.175 363.743
+  45.575 370.163 61.825 374.973 62.545 387.173
+endline
+
+line u:user 
+  79.765 399.183
+  82.245 404.143 84.395 409.643 87.845 414.183
+  88.535 415.093 89.085 416.103 89.745 417.033
+  90.685 418.353 91.445 419.863 92.665 420.933
+  100.355 427.673 110.205 433.323 118.405 439.283
+  126.505 445.153 135.605 452.293 143.575 456.603
+  153.835 462.163 160.825 473.783 170.815 479.523
+  185.325 487.843 204.795 486.833 219.295 495.723
+endline
+
+line u:user 
+  -53.675 300.123
+  -56.015 315.843 -52.955 332.123 -52.955 347.493
+endline
+
+line u:splay -visibility off
+  468.885 624.273
+  404.925 539.743
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  289.095 491.573
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  287.075 483.873
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  247.875 403.913
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  335.625 485.563
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  356.455 504.553
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  366.185 513.463
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  370.605 485.003
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  334.085 450.713
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  288.835 408.503
+endline
+
+line u:splay -visibility off
+  385.425 507.413
+  253.645 379.783
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  189.145 451.853
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  279.945 590.773
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  324.245 650.393
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  305.785 620.073
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  274.835 446.283
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  300.395 390.543
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  329.265 395.793
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  340.875 411.593
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  348.245 420.583
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  312.965 486.443
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  335.685 505.143
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  352.255 511.313
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  362.705 519.183
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  385.065 579.353
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  365.915 608.233
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  361.575 625.583
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  342.285 676.703
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  319.295 659.133
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  294.705 596.383
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  228.665 360.773
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  220.655 363.403
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  288.685 404.853
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  343.695 481.693
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  330.655 466.683
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  381.955 502.393
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  369.245 475.823
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  363.355 460.733
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  375.595 443.733
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  352.535 432.773
+endline
+
+line u:splay -visibility off
+  288.685 473.143
+  233.175 361.553
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  214.875 564.053
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  197.015 560.023
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  186.785 503.753
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  175.715 451.053
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  190.155 445.213
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  200.615 442.793
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  209.655 440.133
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  219.665 437.943
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  226.495 435.273
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  225.245 438.273
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  211.635 448.123
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  204.405 460.883
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  200.565 549.543
+endline
+
+line u:splay -visibility off
+  218.095 428.673
+  199.755 538.723
+endline
+
+line u:splay -visibility off
+  401.975 592.803
+  401.975 556.593
+endline
+
+line u:splay -visibility off
+  401.975 592.803
+  401.975 557.033
+endline
+
+line u:splay -visibility off
+  401.975 592.803
+  401.975 552.633
+endline
+
+line u:splay -visibility off
+  401.975 592.803
+  401.975 545.283
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  139.235 578.323
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  164.455 571.933
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  186.865 570.113
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  207.325 550.683
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  210.555 549.523
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  357.405 568.383
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  337.455 567.593
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  329.215 544.293
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  312.535 532.383
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  281.765 540.413
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  267.595 552.273
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  244.755 565.723
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  304.325 724.203
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  280.775 742.843
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  241.965 741.533
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  208.935 721.953
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  180.155 722.893
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  168.375 690.983
+endline
+
+line u:splay -visibility off
+  226.075 553.293
+  160.505 677.133
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -534.275 -7.547
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -423.645 15.743
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -423.645 25.593
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -450.965 10.343
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -432.095 29.063
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -428.595 32.033
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -429.915 71.993
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -423.645 53.503
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -423.645 43.883
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -423.645 41.853
+endline
+
+line u:splay -visibility off
+  -423.645 35.103
+  -434.735 5.083
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -354.665 63.453
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -350.715 18.453
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -380.955 53.843
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -390.585 54.303
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -345.415 135.833
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -367.755 98.683
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -326.445 71.083
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -302.025 30.063
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -310.385 26.903
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -317.565 26.413
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -325.795 26.373
+endline
+
+line u:splay -visibility off
+  -359.825 63.373
+  -341.435 34.083
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -301.025 185.973
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -341.545 157.793
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -359.195 145.933
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -358.175 139.523
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -286.565 201.863
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -291.845 84.433
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -300.165 83.653
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -303.935 53.963
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -292.345 67.663
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -281.005 69.513
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -273.215 77.973
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -258.575 85.723
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -240.135 109.343
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -126.835 158.293
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -152.425 134.343
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 34.943
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 34.913
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 43.513
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 44.023
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -344.645 37.333
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 121.733
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 44.843
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -127.795 153.393
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -129.355 136.743
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -221.445 89.593
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -257.655 73.683
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -274.955 58.933
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -288.025 52.533
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -279.365 27.063
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 25.933
+endline
+
+line u:splay -visibility off
+  -313.405 77.563
+  -313.405 22.433
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -129.515 185.473
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -130.475 163.603
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -137.225 140.553
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -145.505 124.833
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -151.055 109.393
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -157.585 95.293
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -164.205 79.223
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -179.495 77.613
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -181.855 65.073
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -181.855 56.563
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -198.685 141.363
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -159.885 143.933
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -146.405 142.503
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -139.045 142.033
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -140.635 140.773
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -160.625 190.073
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -150.175 197.743
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -144.765 215.343
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -141.415 229.203
+endline
+
+line u:splay -visibility off
+  -181.855 141.973
+  -140.895 242.643
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 219.413
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 216.653
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 215.513
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 212.203
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -110.365 282.753
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 268.583
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -161.495 264.143
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -169.675 230.943
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -176.645 225.253
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -126.545 197.943
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -134.255 189.953
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -79.965 226.993
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -90.725 212.103
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -114.855 201.183
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -118.715 201.683
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -145.485 147.913
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -188.745 88.553
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -203.525 76.203
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -140.495 233.093
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -151.225 221.443
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -164.115 221.793
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -170.685 214.263
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -167.615 201.443
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -5.985 266.063
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -35.905 257.183
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -87.015 240.743
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -95.535 240.993
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -116.055 231.383
+endline
+
+line u:splay -visibility off
+  -145.485 221.073
+  -128.815 226.143
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -32.525 235.193
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -51.365 263.253
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  1.675 270.593
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -13.355 260.253
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -96.995 291.643
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -75.455 326.613
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -52.785 337.673
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -52.285 352.613
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -49.615 230.613
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -43.815 235.513
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -43.815 235.693
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -45.405 237.653
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -35.725 234.083
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -72.215 242.443
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -55.235 248.613
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -12.345 250.283
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -22.455 244.393
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  35.885 270.793
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  13.355 258.223
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  3.175 251.543
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -9.635 242.263
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  -10.505 246.343
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  71.875 264.043
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  74.435 301.883
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  80.385 316.413
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  110.315 337.383
+endline
+
+line u:splay -visibility off
+  -43.815 264.013
+  122.915 377.793
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  136.225 438.893
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  151.135 438.843
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  155.665 439.903
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  159.075 441.293
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 442.013
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  118.245 515.503
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  92.655 493.693
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  26.995 416.013
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  -20.845 398.413
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  -27.825 379.583
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  -58.685 241.713
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  -21.485 236.393
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 229.423
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 252.263
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 322.543
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 326.363
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 367.573
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 382.133
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  112.545 430.713
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  118.595 434.113
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  129.575 437.093
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  131.215 438.413
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  214.875 432.423
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  228.325 411.003
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  163.465 402.133
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  162.815 396.933
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  198.105 570.733
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  228.445 626.963
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  199.855 572.883
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  137.825 581.233
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  167.265 572.893
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  188.595 565.843
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  290.155 493.923
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  195.125 415.643
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  162.875 420.933
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  151.605 425.823
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  163.265 424.883
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  170.925 429.333
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  28.375 346.273
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  79.565 390.823
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  98.285 377.893
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  69.085 422.993
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  76.665 434.723
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 456.173
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 463.973
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  84.145 476.033
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  123.755 459.093
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 510.323
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  93.895 489.943
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  89.255 471.983
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  272.155 482.563
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  250.195 471.693
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  236.055 459.253
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  232.955 452.843
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  222.365 438.993
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  190.215 432.543
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  174.735 423.283
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  163.775 413.283
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  160.845 409.833
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 432.923
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 441.873
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 447.713
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 544.933
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  202.525 653.343
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  163.535 569.563
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  146.365 561.483
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  141.625 531.443
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 540.533
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 505.313
+endline
+
+line u:splay -visibility off
+  130.665 441.413
+  130.665 488.143
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  257.895 542.723
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  377.065 545.513
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  347.935 541.183
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  327.095 533.743
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  317.095 532.603
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  317.275 542.293
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  295.535 547.833
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  283.565 548.533
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  305.105 656.813
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  277.015 635.523
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  257.895 617.543
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  257.895 545.203
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  257.895 591.003
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  198.365 583.373
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  188.425 563.043
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  214.175 531.773
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  211.775 518.313
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  255.545 457.263
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  248.595 510.913
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  228.425 457.083
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  231.865 478.693
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  330.185 585.923
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  314.535 613.693
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  266.525 549.033
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  332.355 698.583
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  313.685 687.803
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  309.295 683.133
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  313.185 662.763
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  398.875 574.683
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  405.765 577.343
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  237.425 548.723
+endline
+
+line u:splay -visibility off
+  257.895 532.053
+  237.745 549.203
+endline
+
+point -423.65 35.103 station -name 12
+point -359.82 63.373 station -name 13
+point -313.41 77.563 station -name 14
+point -181.855 141.973 station -name 15
+point -145.485 221.073 station -name 16
+point -43.815 264.013 station -name 17
+point 130.665 441.413 station -name 18
+point 257.895 532.053 station -name 19
+point 226.075 553.293 station -name 9
+point 385.425 507.413 station -name 4
+point 288.685 473.143 station -name 5
+point 218.095 428.673 station -name 6
+endscrap
+
+
+scrap abflussrohr-2s -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
+
+line wall 
+  877.62 723.44
+  874.2 718.32 862.68 715.4 858.08 709.84
+  846.83 696.2 842.35 677.71 832.27 663.9
+  827.48 657.32 816.61 658.3 811.39 653.08
+  807.35 654.36 800.74 653.05 797.05 657.29
+  785.19 670.94 786.14 692.68 778.81 708.72
+  775.64 715.66 770.31 724.64 770.31 731.98
+endline
+
+line wall:blocks 
+  798.46 571.55
+  819.74 599.95 853.97 616.56 882.15 635.98
+  919.9 661.99 954.25 703.6 1001.07 713.5
+endline
+
+line border -close on -id abflussrohr-2s_snow_1 -visibility on
+  778.69 539.47
+  772.72 543.81 766.39 547.95 760.83 552.58
+  758.37 554.63 755.27 555.85 752.77 557.67
+  735.62 570.18 715.65 582.16 695.51 586.32
+  660.23 593.6 618.09 590.31 582.36 587.51
+  557.88 585.59 531.46 586.4 507.48 578.65
+  490.76 573.25 475.34 562.55 462.91 550.75
+  433.57 492.86
+  433.57 488.52 429.43 471.15 432.62 466.73
+  445.06 449.49 482.0 451.75 500.05 452.9
+  510.93 453.6 522.21 455.23 533.25 454.8
+  549.17 454.19 565.56 453.52 581.48 452.9
+  621.67 451.34 663.98 443.96 704.06 451.0
+  707.93 451.68 711.59 453.29 715.29 454.64
+  738.18 463.01 763.48 475.84 776.93 496.8
+  784.09 507.97 780.16 522.71 781.54 534.29
+  778.69 539.47
+  778.69 539.47
+endline
+
+area snow 
+  abflussrohr-2s_snow_1
+endarea
+
+line border -close on -id abflussrohr-2s_snow_2 -visibility on
+  402.65 497.66
+  386.84 488.39 372.47 475.81 357.73 464.77
+  345.09 455.31 331.16 445.56 320.22 434.25
+  315.94 429.83 311.27 425.46 306.21 421.97
+  300.0 417.69 292.56 414.13 286.3 409.98
+  269.98 399.16 249.75 393.5 233.24 382.44
+  231.54 381.3 218.69 370.9 222.43 367.87
+  234.94 358.73 253.93 368.2 266.92 370.8
+  288.41 375.12 307.83 388.29 328.44 395.46
+  332.16 396.76 335.12 399.78 338.19 402.07
+  344.13 406.51 351.65 409.19 357.84 413.57
+  358.33 413.91 358.69 414.4 359.18 414.73
+  359.59 415.01 360.07 415.18 360.51 415.4
+  360.96 415.62 361.42 415.81 361.85 416.07
+  362.15 416.25 362.38 416.55 362.69 416.73
+  363.11 416.99 363.57 417.18 364.02 417.4
+  364.46 417.62 364.93 417.81 365.36 418.07
+  365.94 418.42 366.47 418.85 367.03 419.23
+  367.36 419.46 367.67 419.71 368.02 419.9
+  376.0 424.48 381.64 432.69 389.04 437.97
+  396.06 442.97 404.85 446.31 413.38 447.34
+  417.69 447.86 423.44 448.79 426.63 452.79
+  436.13 464.7 435.04 486.19 437.31 499.85
+  438.86 509.14 445.21 517.89 447.71 526.52
+  433.75 523.11 419.94 514.7 410.29 503.87
+  404.38 497.24 393.58 491.92 389.35 483.92
+  402.65 497.66
+  402.65 497.66
+endline
+
+area snow 
+  abflussrohr-2s_snow_2
+endarea
+
+line wall:blocks 
+  175.83 460.74
+  175.92 460.62 175.97 460.48 176.09 460.4
+  188.58 452.19 199.87 441.1 211.76 431.17
+  215.65 427.93 226.94 423.28 228.57 418.39
+endline
+
+line wall 
+  187.75 461.17
+  186.74 462.19 185.32 462.74 184.37 463.43
+  181.76 465.33 178.84 467.27 175.95 468.5
+  174.64 469.06 166.16 472.26 166.35 473.01
+  167.7 478.46 172.34 482.95 176.16 486.77
+  187.25 500.85 201.48 514.76 208.79 531.26
+  213.26 541.34 219.36 556.93 225.55 564.37
+endline
+
+line wall 
+  233.13 562.87
+  243.77 573.51 260.84 573.75 273.29 579.08
+  286.98 584.93 301.77 596.72 310.08 608.86
+  320.16 623.57 329.82 640.56 337.57 656.89
+  339.6 661.17 340.97 665.96 343.48 670.0
+  344.57 671.76 344.97 674.24 346.76 675.28
+  348.42 676.24 353.65 673.86 354.95 673.26
+  365.36 661.46 377.57 641.33 380.13 625.34
+endline
+
+line wall 
+  385.69 624.09
+  389.51 606.82 399.41 589.17 411.49 579.19
+  411.82 578.92 412.3 578.91 412.71 578.77
+endline
+
+line wall 
+  418.32 583.66
+  425.51 583.66 433.43 595.37 437.91 600.1
+  450.98 613.91 465.65 628.52 481.41 639.03
+endline
+
+line wall 
+  474.21 630.69
+  485.08 642.61 494.08 658.21 496.97 674.27
+  499.84 690.23 497.59 707.43 493.63 722.86
+endline
+
+line wall:blocks 
+  233.71 401.46
+  234.53 401.46 235.35 401.55 236.16 401.46
+  257.54 398.89 279.32 390.13 301.03 391.68
+  305.49 392.0 309.89 392.98 314.34 393.37
+  317.99 393.68 321.69 393.27 325.31 393.78
+  355.13 397.99 383.82 410.9 411.45 421.57
+  440.34 432.73 473.6 438.02 503.92 444.61
+  506.76 445.23 509.6 445.87 512.49 446.25
+  528.6 448.36 547.51 444.42 563.97 444.21
+  569.46 444.15 574.96 443.92 580.44 444.21
+  583.71 444.39 586.93 445.07 590.15 445.63
+  592.84 446.09 595.47 446.89 598.17 447.27
+  600.91 447.65 603.68 447.78 606.44 447.88
+  609.18 447.98 611.95 448.28 614.67 447.88
+  632.27 445.3 653.58 449.1 672.34 449.1
+  673.55 449.1 674.77 448.9 675.96 449.1
+  678.3 449.5 680.59 450.2 682.86 450.89
+  685.38 451.66 687.82 452.7 690.34 453.49
+  698.52 456.06 707.79 464.57 716.0 465.59
+  723.01 466.47 731.88 466.59 737.83 471.81
+  739.92 473.65 741.61 475.9 743.55 477.9
+  745.31 479.72 747.14 481.48 748.93 483.28
+  750.03 484.38 751.06 485.57 752.24 486.59
+  753.95 488.06 755.9 489.26 757.61 490.74
+  780.64 510.67 794.27 539.05 803.93 563.97
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  837.93 680.03
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  842.16 678.35
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  863.58 687.95
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  870.61 690.5
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  879.27 696.08
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  886.38 705.75
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  958.02 724.05
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  976.95 721.46
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  991.93 724.22
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  987.03 716.44
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  974.56 708.6
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  963.22 702.73
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  945.97 695.94
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  874.18 711.6
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  873.18 722.76
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  745.78 539.35
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  824.44 602.27
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  870.77 636.18
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  901.4 660.34
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  919.06 677.88
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  825.7 659.13
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  835.9 676.22
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  838.31 685.29
+endline
+
+line u:splay -visibility off
+  930.75 695.38
+  832.46 692.11
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  821.34 599.14
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  801.08 586.04
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  779.56 570.11
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  747.58 547.42
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  709.26 576.09
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  697.28 595.21
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  689.86 607.32
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  652.2 607.24
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  617.78 606.33
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  675.49 595.16
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  826.89 592.91
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  815.36 613.07
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  797.25 630.6
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  756.66 645.71
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  716.53 661.86
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  673.37 669.99
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  619.53 674.2
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  582.51 670.79
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  540.84 667.22
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  507.64 666.9
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  486.76 658.75
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  490.95 655.29
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  820.67 615.26
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  801.95 600.62
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  700.21 557.77
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  633.07 484.0
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  629.76 541.24
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  615.92 585.94
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  572.07 593.06
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  564.73 605.97
+endline
+
+line u:splay -visibility off
+  817.1 651.45
+  407.07 691.75
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  483.38 615.86
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  575.52 657.76
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  613.38 691.65
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  655.88 728.37
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  679.62 743.2
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  634.97 583.75
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  738.76 617.41
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  766.84 637.61
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  813.4 655.13
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  809.9 648.3
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  798.64 614.73
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  419.42 544.89
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  444.61 566.87
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  465.46 570.5
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  536.41 572.71
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  575.18 584.56
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  618.7 587.67
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  649.84 585.82
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  483.38 630.27
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  483.38 611.85
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  483.38 604.6
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  494.29 562.32
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  506.96 577.6
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  517.59 586.26
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  530.48 596.44
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  544.82 600.76
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  555.27 605.74
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  584.8 604.31
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  609.03 602.55
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  303.59 496.72
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  301.57 489.02
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  262.37 409.06
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  350.12 490.7
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  370.94 509.7
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  380.67 518.61
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  385.1 490.15
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  348.58 455.85
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  303.32 413.65
+endline
+
+line u:splay -visibility off
+  399.91 512.56
+  268.14 384.93
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  203.64 457.0
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  294.44 595.92
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  338.74 655.53
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  320.28 625.22
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  289.33 451.42
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  314.88 395.69
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  343.76 400.94
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  355.36 416.73
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  362.73 425.73
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  327.46 491.58
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  350.18 510.29
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  366.75 516.45
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  377.19 524.32
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  399.56 584.5
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  380.41 613.37
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  376.07 630.72
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  356.78 681.85
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  333.79 664.28
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  309.2 601.53
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  243.16 365.92
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  235.15 368.55
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  303.18 410.0
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  358.19 486.84
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  345.15 471.83
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  396.45 507.54
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  383.74 480.97
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  377.85 465.88
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  390.09 448.88
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  367.03 437.91
+endline
+
+line u:splay -visibility off
+  303.18 478.29
+  247.67 366.69
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  229.37 569.19
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  211.5 565.17
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  201.27 508.89
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  190.21 456.19
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  204.65 450.36
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  215.11 447.94
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  224.15 445.28
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  234.16 443.09
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  240.98 440.42
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  239.74 443.42
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  226.13 453.27
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  218.89 466.03
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  215.06 554.69
+endline
+
+line u:splay -visibility off
+  232.59 433.82
+  214.25 543.87
+endline
+
+line u:splay -visibility off
+  483.38 629.42
+  483.38 618.96
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  483.38 615.5
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  483.38 616.37
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  483.38 616.7
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  459.74 616.6
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  452.05 643.62
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  483.38 602.13
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  424.37 728.04
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  414.56 710.61
+endline
+
+line u:splay -visibility off
+  483.38 621.09
+  420.12 695.41
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  446.66 573.34
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  510.97 583.62
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  505.77 583.26
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 580.88
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 579.4
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 577.7
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 578.65
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  363.72 586.32
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  383.56 589.28
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  391.67 590.6
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  398.62 591.02
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  404.67 597.15
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 575.86
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 561.73
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 569.48
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 577.43
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  413.57 658.62
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  396.36 680.17
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  381.79 725.52
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 642.26
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  441.98 645.1
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 655.45
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 643.25
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 573.05
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 562.18
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 557.78
+endline
+
+line u:splay -visibility off
+  416.47 597.94
+  416.47 550.43
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  153.73 583.47
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  178.95 577.08
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  201.36 575.25
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  221.82 555.83
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  225.05 554.66
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  371.9 573.53
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  351.95 572.73
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  343.71 549.44
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  327.03 537.53
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  296.26 545.56
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  282.09 557.42
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  259.25 570.87
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  318.82 729.35
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  295.26 747.98
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  256.46 746.68
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  223.43 727.1
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  194.65 728.04
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  182.87 696.12
+endline
+
+line u:splay -visibility off
+  240.57 558.43
+  175.0 682.28
+endline
+
+line u:splay -visibility off
+  147.21 625.01
+  189.06 622.56
+endline
+
+line u:splay -visibility off
+  147.21 625.01
+  216.48 768.2
+endline
+
+line u:splay -visibility off
+  147.21 625.01
+  166.98 678.24
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  170.16 445.04
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  173.56 446.43
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  229.37 437.57
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  242.82 416.15
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  177.95 407.28
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  177.3 402.08
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  212.6 575.88
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  242.94 632.1
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  214.35 578.02
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  181.75 578.04
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  203.08 570.98
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  304.64 499.07
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  209.62 420.79
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  177.37 426.07
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  177.76 430.02
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  185.42 434.48
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  286.64 487.71
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  264.69 476.84
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  250.55 464.4
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  247.44 457.98
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  236.86 444.14
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  204.71 437.68
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  189.23 428.42
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  178.27 418.43
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  175.34 414.98
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  217.02 658.48
+endline
+
+line u:splay -visibility off
+  145.16 446.55
+  178.02 574.71
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  272.39 547.87
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  391.56 550.66
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  362.42 546.33
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  341.59 538.89
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  331.59 537.75
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  331.76 547.43
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  310.03 552.98
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  298.06 553.68
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  319.6 661.96
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  291.51 640.67
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  272.39 622.69
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  272.39 550.34
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  272.39 596.15
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  212.85 588.52
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  202.92 568.18
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  228.67 536.92
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  226.27 523.45
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  270.04 462.4
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  263.09 516.06
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  242.92 462.23
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  246.36 483.84
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  344.68 591.07
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  329.03 618.84
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  281.02 554.18
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  346.84 703.73
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  328.18 692.95
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  323.79 688.28
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  327.68 667.91
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  413.37 579.83
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  420.26 582.48
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  251.92 553.86
+endline
+
+line u:splay -visibility off
+  272.39 537.2
+  252.23 554.35
+endline
+
+point 930.75 695.38 station -name 1
+point 817.1 651.45 station -name 2
+point 483.38 629.42 station -name 3
+point 399.91 512.56 station -name 4
+point 303.18 478.29 station -name 5
+point 232.59 433.82 station -name 6
+point 483.38 621.09 station -name 7
+point 416.47 597.94 station -name 8
+point 240.57 558.43 station -name 9
+point 416.47 580.72 station -name 20
+point 272.39 537.2 station -name 19
+endscrap
+
+
+scrap abflussrohr-3s -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
+
+point 147.978 647.68 station-name -scale xs -text 10
+line wall:invisible 
+  327.6602 567.12
+  338.4082 550.2737
+  372.8285 515.3859
+endline
+
+line u:texture 
+  352.6148 678.7534
+  352.6148 678.7534 358.6253 617.9808 359.961 613.306
+  361.2967 608.6312 359.2932 586.5927 359.2932 586.5927
+endline
+
+line u:texture 
+  309.2058 730.8442
+  309.2058 730.8442 304.531 688.1031 301.1918 672.7429
+  297.8527 657.3828 295.8492 655.3793 295.1814 648.0332
+  294.5135 640.687 294.5135 562.5508 294.5135 562.5508
+endline
+
+line u:texture 
+  186.3249 727.5051
+  186.3249 727.5051 197.0102 682.0926 196.3424 668.736
+  195.6745 655.3793 195.6745 629.3339 195.0067 619.3164
+  194.3389 609.299 195.0067 567.8935 195.0067 567.8935
+endline
+
+line wall:invisible 
+  -212.046 64.2202
+  -175.5137 57.0725
+  -148.5116 70.5736
+  -143.7465 87.2514
+endline
+
+line u:texture 
+  -169.9545 74.5445
+  -169.9545 74.5445 -166.7778 115.0477 -167.572 122.9895
+  -168.3661 130.9313 -164.3952 157.1392 -164.3952 157.1392
+endline
+
+line u:texture 
+  -234.2831 166.6694
+  -235.0772 195.2598
+  -235.0772 214.3202
+endline
+
+line u:texture 
+  -235.0772 63.426
+  -235.0772 63.426 -231.1063 92.0164 -233.4889 101.5466
+  -235.8714 111.0768 -237.4598 119.8127 -237.4598 126.9604
+  -237.4598 134.108 -237.4598 157.9334 -237.4598 157.9334
+endline
+
+point 99.96 728.75 narrow-end 
+line wall 
+  483.7372 683.3384
+  469.4172 676.1784 393.07 702.63 393.07 702.63
+  390.53 701.46
+  387.35 699.36
+  379.04 694.28
+  371.44 693.35
+  371.44 693.35 363.314 679.5826 356.45 679.18
+  351.1351 678.8683 347.1363 684.7049 343.64 688.72
+  335.3588 698.2301 334.561 713.1826 325.43 721.88
+  321.2546 725.8571 315.079 726.9657 309.88 729.46
+  300.6374 733.8943 292.1641 740.8017 282.07 742.59
+  264.5501 745.6938 246.0098 732.8531 228.91 737.77
+  222.1273 739.7203 217.6005 746.2184 212.06 750.59
+  208.8279 753.1402 206.5662 759.0545 202.5 758.41
+  190.0493 756.4367 193.3431 732.2214 182.0661 726.5872
+  173.8719 722.4933 163.7384 727.3801 154.66 728.6
+  145.8965 729.7776 136.9 733.71 128.63 733.71
+endline
+
+line wall 
+  92.5168 709.6913
+  92.5168 703.9213 88.0068 695.2313 86.5068 689.4013
+  85.0567 683.8113 111.29 675.19 110.58 669.51
+  109.7384 662.7441 111.1697 654.1294 113.4587 645.8989
+  115.3581 639.0695 117.8481 632.5046 120.12 627.48
+  125.51 615.56 129.18 601.66 138.22 592.13
+  142.99 587.1 145.58 571.74 150.27 569.39
+endline
+
+line wall:blocks 
+  145.95 572.53
+  146.08 572.4 146.16 572.17 146.34 572.14
+  157.34 570.13 168.44 566.4 179.67 565.06
+  197.29 562.96 216.82 560.12 231.775 555.15
+  233.53 550.03 248.51 552.52 253.84 552.52
+  278.8 552.52 302.96 567.12 327.66 567.12
+endline
+
+line border -close on -id abflussrohr-3s_snow_1 -visibility on
+  327.66 560.07
+  323.63 569.2 339.84 575.12 346.35 578.06
+  353.51 581.3 360.05 586.31 367.13 589.77
+  368.12 590.25 369.15 590.62 370.12 591.14
+  370.86 591.53 371.5 592.09 372.24 592.5
+  373.12 592.98 374.0 593.51 374.96 593.81
+  380.39 595.54 386.26 596.83 391.88 597.66
+  397.71 598.53 415.73 604.57 415.73 596.34
+  415.73 591.9 486.7895 566.1265 480.7195 564.5365
+  464.4395 560.2765 365.0772 521.2118 348.2672 520.3218
+  340.6772 519.9218 339.77 566.11 332.27 565.11
+  330.42 564.86 328.62 563.46 326.66 563.6
+  327.66 560.07
+  327.66 560.07
+endline
+
+area snow 
+  abflussrohr-3s_snow_1
+endarea
+
+point 416.47 597.94 station -name 8
+point 240.57 558.43 station -name 9
+point 147.21 625.01 station -name 10
+point 416.47 580.72 station -name 20
+endscrap
+
+
+scrap abflussrohr-s -projection extended -scale [0 0 96 0 0 0 2000 0 inch]
+
+point 239.724 593.816 station-name -scale xs -text 9
+line u:texture 
+  489.6843 673.428
+  489.6843 673.428 490.5779 652.8755 492.3651 644.8333
+  494.1523 636.791 494.1523 626.9616 495.0459 620.7065
+  495.9394 614.4514 495.9394 601.9412 497.7266 598.3669
+  499.5138 594.7926 502.1945 586.7503 502.1945 586.7503
+  502.1945 584.0695
+endline
+
+line u:texture 
+  433.3885 605.5156
+  433.3885 605.5156 434.2821 588.5375 433.3885 584.0695
+  432.4949 579.6016 432.4949 570.6658 432.4949 570.6658
+  430.7078 551.0069
+endline
+
+line u:texture 
+  420.8783 599.2605
+  420.8783 599.2605 371.7312 584.0695 366.3697 576.9209
+  361.0082 569.7722 348.498 564.4107 343.1365 560.8363
+  337.775 557.262 279.692 529.5609 279.692 529.5609
+  209.9924 489.3496
+  160.8452 469.6907
+  125.1018 445.5639
+endline
+
+line u:texture 
+  590.6594 744.0212
+  590.6594 744.0212 570.107 733.2982 551.3417 722.5751
+  532.5764 711.8521 490.5779 695.7676 490.5779 695.7676
+endline
+
+line u:texture 
+  769.3763 728.8302
+  769.3763 728.8302 741.6752 706.4906 737.2073 704.7034
+  732.7394 702.9163 680.9115 681.4702 675.55 676.1087
+  670.1884 670.7472 667.5077 677.0023 651.4232 664.4922
+  635.3386 651.982 598.7017 628.7488 585.2979 625.1744
+  571.8941 621.6001 540.6187 606.4092 540.6187 606.4092
+endline
+
+line u:texture 
+  999.4733 716.1576
+  999.4733 716.1576 937.7142 713.9612 935.7142 711.9612
+  933.7142 709.9612 878.6302 728.7454 878.6302 728.7454
+endline
+
+line u:texture 
+  775.41 733.7805
+  775.41 733.7805 736.3137 727.9366 725.5907 726.1495
+  714.8677 724.3623 712.1869 719.8944 689.8473 721.6816
+  667.5077 723.4687 619.2541 735.9789 612.999 735.9789
+  606.7439 735.9789 572.7877 749.3827 563.8519 748.4891
+  554.916 747.5955 533.47 755.6378 529.8957 757.4249
+  526.3213 759.2121 479.8549 797.6362 479.8549 797.6362
+  479.8549 797.6362
+endline
+
+line wall:invisible 
+  999.4733 716.1576
+  999.4733 716.1576 864.9899 754.7442 855.1604 757.4249
+  845.331 760.1057 646.9552 779.7646 639.8066 779.7646
+  632.6579 779.7646 516.4919 789.594 516.4919 789.594
+  479.8549 797.6363
+endline
+
+point -469.3548 58.4658 station-name -align t -scale xs -text 12
+point -368.6284 78.3657 station-name -align t -scale xs -text 13
+point -276.5302 53.4368 station-name -align t -scale xs -text 14
+point -182.3743 86.6649 station-name -align t -scale xs -text 15
+point -184.0844 263.3969 station-name -align t -scale xs -text 16
+point 33.4344 205.5621 station-name -align t -scale xs -text 17
+point 138.665 473.413 station-name -align t -scale xs -text 18
+point 195.895 514.053 station-name -align t -scale xs -text 19
+point 435.425 471.413 station-name -align t -scale xs -text 4
+point 328.685 425.1431 station-name -align t -scale xs -text 5
+point 258.095 390.673 station-name -align t -scale xs -text 6
+point 461.26 654.434 station-name -scale xs -text 3
+point 807.067 690.169 station-name -scale xs -text 2
+point 935.714 709.961 station-name -scale xs -text 1
+point 930.75 695.38 station -name 1
+point 817.1 651.45 station -name 2
+point 483.38 629.42 station -name 3
+point 399.91 512.56 station -name 4
+point 303.18 478.29 station -name 5
+point 232.59 433.82 station -name 6
+point 483.38 621.09 station -name 7
+point 416.47 597.94 station -name 8
+point 240.57 558.43 station -name 9
+point 416.47 580.72 station -name 20
+point -423.65 35.103 station -name 12
+point -359.82 63.373 station -name 13
+point -313.41 77.563 station -name 14
+point -181.855 141.973 station -name 15
+point -145.485 221.073 station -name 16
+point -43.815 264.013 station -name 17
+point 130.665 441.413 station -name 18
+point 257.895 532.053 station -name 19
+point 945.855 760.199 entrance -orientation 220.0000334509318
+line u:texture 
+  15.915 360.413
+  5.605 350.103 -3.875 336.953 -17.365 330.273
+  -22.655 327.643 -25.365 317.663 -30.985 315.643
+  -37.005 313.473 -45.205 305.813 -50.085 300.123
+  -56.545 292.583 -66.165 286.103 -70.885 277.713
+  -71.265 277.043 -71.675 276.343 -72.255 275.843
+  -78.695 270.333 -87.205 265.463 -92.825 257.573
+endline
+
+line u:texture 
+  -22.825 329.553
+  -22.125 328.623 -21.325 327.763 -20.715 326.773
+  -19.995 325.583 -19.475 324.283 -18.845 323.033
+  -18.615 322.573 -18.285 322.153 -18.155 321.653
+  -14.885 308.533 -12.805 292.253 -11.935 278.553
+  -11.295 268.473 -15.615 256.473 -16.725 246.283
+  -17.085 243.033 -17.475 239.783 -17.845 236.533
+endline
+
+line u:texture 
+  43.175 366.886
+  44.675 353.356 44.225 339.316 47.795 326.766
+  49.605 320.426 37.465 305.753 39.585 299.403
+  42.125 291.823 46.765 284.063 46.765 275.713
+endline
+
+line u:texture 
+  100.3689 448.5549
+  96.8689 417.5849 117.885 339.403 99.855 312.323
+endline
+
+line u:texture 
+  100.565 448.713
+  107.885 463.063 110.615 480.103 110.615 495.723
+endline
+
+line u:texture 
+  -93.9301 257.2492
+  -93.1501 251.5292 -96.985 237.773 -94.025 232.643
+  -93.035 230.933 -90.235 231.033 -89.325 229.553
+  -87.445 226.523 -84.825 223.853 -82.795 220.873
+  -80.825 217.973 -82.895 212.823 -85.595 211.113
+endline
+
+line u:texture 
+  -107.8513 254.6118
+  -116.4013 249.3518 -126.565 246.673 -131.015 238.473
+  -131.665 237.283 -132.855 236.463 -133.915 235.613
+  -136.535 233.533 -139.035 231.073 -141.925 229.283
+  -143.675 228.203 -145.375 226.993 -147.245 226.133
+  -157.745 221.363 -169.535 217.803 -179.025 210.933
+endline
+
+line rock-border -clip off -close on
+  -174.435 53.383
+  -178.435 60.143
+  -185.925 65.403
+  -194.125 66.963
+  -201.565 70.413
+  -209.695 69.183
+  -211.475 59.393
+  -204.725 54.973
+  -192.495 50.263
+  -174.435 53.383
+endline
+
+line rock-border -clip off -close on
+  -147.405 82.433
+  -154.415 75.913
+  -162.935 70.903
+  -170.355 65.543
+  -170.925 58.393
+  -161.755 58.893
+  -151.815 61.093
+  -142.855 66.673
+  -147.405 82.433
+endline
+
+line u:texture 
+  -403.4807 99.4452
+  -406.4607 94.2952 -409.5007 87.4352 -407.6207 81.5452
+  -401.6707 62.8252 -394.1907 41.5851 -397.7507 21.1352
+endline
+
+line u:texture 
+  -321.205 166.083
+  -321.205 154.003 -323.875 141.723 -326.965 130.273
+  -329.705 120.133 -322.055 108.153 -326.055 98.413
+  -326.275 97.883 -326.685 97.423 -327.125 97.053
+  -335.985 89.443 -342.605 78.993 -351.405 71.353
+  -352.315 70.563 -352.985 69.463 -354.045 68.893
+  -363.405 63.803 -380.975 60.373 -386.705 51.143
+  -386.945 50.763 -387.425 50.623 -387.765 50.323
+  -388.055 50.073 -388.275 49.733 -388.585 49.503
+  -389.405 48.903 -390.415 48.543 -391.135 47.823
+  -392.695 46.263 -393.935 44.413 -395.355 42.723
+  -395.495 42.563 -395.655 42.433 -395.805 42.283
+endline
+
+line u:texture 
+  -309.0149 117.3768
+  -286.4149 127.7068 -267.9149 146.8768 -246.2349 159.2468
+  -239.3749 163.1668 -230.3249 163.1068 -223.9249 167.6068
+endline
+
+line rock-border -close on
+  -213.795 156.653
+  -205.785 147.943
+  -196.255 144.723
+  -186.305 144.723
+  -172.795 149.893
+  -165.895 155.453
+  -161.535 164.023
+  -161.455 180.713
+  -161.185 190.343
+  -163.635 198.233
+  -171.355 201.213
+  -180.895 202.273
+  -190.955 202.273
+  -203.925 198.593
+  -213.285 194.103
+  -220.125 188.913
+  -222.905 179.833
+  -220.195 168.073
+  -213.375 156.603
+  -213.795 156.653
+endline
+
+point -530.069 88.8673 label -align tl -scale s -text eng
+point -586.948 -15.3303 narrow-end -align l
+line wall:blocks 
+  152.3127 362.4397
+  152.3127 362.4397 502.1933 423.1658 543.6442 423.9629
+  585.095 424.7601 648.273 448.0369 648.273 448.0369
+endline
+
+line wall -close on -outline in
+  34.2569 358.8208
+  36.3979 363.1029 56.3811 375.9492 59.2358 380.945
+  62.0906 385.9408 67.8 388.0819 69.9411 390.9366
+  72.0821 393.7913 69.9411 408.7787 69.9411 408.7787
+  69.9411 408.7787 63.5179 409.4924 57.8084 407.3513
+  52.099 405.2103 32.8295 396.6461 26.4063 391.6503
+  19.9832 386.6545 11.419 378.0903 11.419 378.0903
+  11.419 359.5345
+  34.2569 358.8208
+endline
+
+line border -close on -id abflussrohr-s_snow_1 -visibility off
+  812.08 561.8469
+  812.08 561.8469 747.0135 585.6212 735.752 586.8725
+  724.4905 588.1237 686.9521 594.3801 673.1881 594.3801
+  659.424 594.3801 591.8549 585.6212 583.096 585.6212
+  574.337 585.6212 505.5167 578.1135 496.7577 576.8622
+  487.9988 575.611 442.9527 559.3443 434.1938 551.8367
+  425.4348 544.329 420.4297 538.0726 405.4144 541.8264
+  390.399 545.5803 340.3479 540.5751 334.0915 538.0726
+  327.8351 535.57 307.8146 523.0572 297.8044 523.0572
+  287.7941 523.0572 266.5224 516.8008 266.5224 516.8008
+  242.7481 481.765
+  242.7481 481.765 241.4968 457.9907 233.9892 454.2369
+  226.4815 450.4831 202.7072 436.719 197.7021 431.7139
+  192.697 426.7088 177.6816 414.196 177.6816 414.196
+  177.6816 414.196 145.1484 399.1806 141.3945 390.4217
+  137.6407 381.6627 142.6458 337.868 142.6458 337.868
+  202.7072 332.8629
+  518.0295 389.1704
+  718.2341 436.719
+  805.8236 510.5445
+  812.08 561.8469
+  812.08 561.8469
+endline
+
+area snow 
+  abflussrohr-s_snow_1
+endarea
+
+line border -close on
+  812.08 561.8469
+  812.08 561.8469 747.0135 585.6212 735.752 586.8725
+  724.4905 588.1237 686.9521 594.3801 673.1881 594.3801
+  659.424 594.3801 591.8549 585.6212 583.096 585.6212
+  574.337 585.6212 505.5167 578.1135 496.7577 576.8622
+  487.9988 575.611 442.9527 559.3443 434.1938 551.8367
+  425.4348 544.329 420.4297 538.0726 405.4144 541.8264
+  390.399 545.5803 340.3479 540.5751 334.0915 538.0726
+  327.8351 535.57 307.8146 523.0572 297.8044 523.0572
+  287.7941 523.0572 266.5224 516.8008 266.5224 516.8008
+  242.7481 481.765
+  242.7481 481.765 241.4968 457.9907 233.9892 454.2369
+  226.4815 450.4831 202.7072 436.719 197.7021 431.7139
+  192.697 426.7088 177.6816 414.196 177.6816 414.196
+  177.6816 414.196 145.1484 399.1806 141.3945 390.4217
+  137.6407 381.6627 142.6458 337.868 142.6458 337.868
+  202.7072 332.8629
+  518.0295 389.1704
+  718.2341 436.719
+  805.8236 510.5445
+  812.08 561.8469
+endline
+
+line wall 
+  479.8549 797.6363
+  479.8549 797.6363 487.1488 708.6049 487.1488 697.2758
+  487.1488 685.9468 487.1488 680.9117 484.6313 673.359
+  482.1137 665.8063 479.5961 651.9597 479.5961 646.9245
+  479.5961 641.8894 458.1968 629.3016 458.1968 629.3016
+  455.6793 614.1962
+  455.6793 614.1962 439.3151 612.9374 435.5387 605.3847
+  431.7624 597.832 397.9067 625.6621 397.9067 625.6621
+  397.9067 625.6621 382.8913 630.6672 377.8862 639.4262
+  372.8811 648.1851 355.3632 663.2005 355.3632 663.2005
+  355.3632 663.2005 345.353 670.7082 337.8453 665.703
+  330.3376 660.6979 300.3069 663.2005 300.3069 663.2005
+  300.3069 663.2005 296.5531 658.1954 289.0454 649.4364
+  281.5378 640.6775 260.266 630.6672 251.5071 625.6621
+  242.7481 620.657 228.984 614.4006 220.2251 606.8929
+  211.4661 599.3853 212.7174 601.8878 202.7072 594.3801
+  192.697 586.8725 187.6918 586.8725 178.9329 579.3648
+  170.1739 571.8571 118.245 515.503 118.245 515.503
+  118.245 515.503 118.739 494.9412 84.145 476.033
+  49.551 457.1248 26.995 416.013 26.995 416.013
+  -27.825 379.583
+  -27.825 379.583 -78.0445 334.7465 -85.5972 319.6411
+  -93.1499 304.5357 -89.3736 285.654 -101.9614 280.6188
+  -114.5492 275.5837 -152.3127 254.1844 -159.8654 249.1493
+  -167.4181 244.1141 -167.4181 240.3378 -177.4883 235.3027
+  -187.5586 230.2675 -287.0024 202.5743 -298.3314 193.7628
+  -309.6605 184.9514 -333.5774 162.2933 -341.13 158.5169
+  -348.6827 154.7406 -362.5293 140.894 -368.8233 134.6001
+  -375.1172 128.3062 -414.1394 86.7663 -414.1394 86.7663
+  -414.1394 86.7663 -434.28 70.4022 -439.3151 66.6258
+  -444.3502 62.8495 -480.8549 33.8975 -485.89 32.6387
+  -490.9252 31.3799 -563.9345 1.1691 -563.9345 1.1691
+endline
+
+line wall -close on -outline in
+  878.6302 728.7454
+  878.6302 728.7454 858.4896 708.6049 854.7133 702.311
+  850.937 696.0171 832.0552 693.4995 829.5377 682.1704
+  827.0201 670.8414 820.7262 662.0299 820.7262 662.0299
+  820.7262 662.0299 808.1383 660.7712 803.1032 664.5475
+  798.0681 668.3238 782.9627 689.7232 781.7039 698.5346
+  780.4451 707.3461 775.41 733.7805 775.41 733.7805
+  829.5377 736.2981
+  878.6302 728.7454
+endline
+
+line wall:blocks 
+  648.273 448.0369
+  655.8257 454.3308 682.2601 458.1072 718.7648 500.9058
+  755.2695 543.7044 785.4803 573.9152 799.3269 583.9854
+  813.1735 594.0557 854.7133 626.784 859.7484 630.5604
+  864.7836 634.3367 916.3936 660.7712 922.6876 665.8063
+  928.9815 670.8414 954.1571 696.0171 954.1571 696.0171
+  999.4733 716.1576
+endline
+
+line wall:blocks 
+  -119.348 193.0907
+  -119.348 193.0907 -56.6452 222.7148 -47.8337 227.75
+  -39.0223 232.7851 -17.623 247.8905 -2.5176 252.9256
+  12.5878 257.9608 35.2459 266.7722 44.0574 271.8074
+  52.8689 276.8425 57.904 279.3601 62.9391 285.654
+  67.9743 291.9479 100.7026 322.1587 103.2202 328.4526
+  105.7377 334.7465 127.137 353.6282 127.137 353.6282
+  152.3127 362.4397
+endline
+
+line wall 
+  -144.76 86.7663
+  -109.5141 106.9069
+  -109.5141 106.9069 -115.808 140.894 -115.808 145.9291
+  -115.808 150.9642 -117.0668 184.9514 -117.0668 184.9514
+  -117.0668 195.0216
+endline
+
+line wall:blocks 
+  -540.0177 -16.4538
+  -540.0177 -16.4538 -377.6347 25.086 -365.0469 25.086
+  -352.4591 25.086 -309.6605 28.8623 -297.0727 35.1563
+  -284.4848 41.4502 -279.4497 49.0029 -265.6031 51.5204
+  -251.7565 54.038 -212.7342 64.1082 -212.7342 64.1082
+endline
+
+endscrap
+

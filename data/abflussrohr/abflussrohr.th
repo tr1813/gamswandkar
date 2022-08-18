@@ -1,12 +1,18 @@
 # 2021.07.17 created by TopoDroid v 5.1.40
 
-survey abflussrohr -title "Abflussrohr"
+survey abflussrohr -title "Abflussrohr" -entrance 1
     # snow plug, leading to small canyon heading SW, ending in too narrow/too low rift.
 
     input abflussrohr-p.th2
+    input abflussrohr-s.th2
 
     map m-all-p
       abflussrohr-p
+    endmap
+
+    map m-all-e -projection extended
+      abflussrohr-s
+      abflussrohr-3s
     endmap
 
   centerline

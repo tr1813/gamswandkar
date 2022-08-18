@@ -1,11 +1,24 @@
 # 2021.07.14 created by TopoDroid v 5.1.40
 
-survey gurgeltest_hoehle -title "Gurgeltest Höhle"
+survey gurgeltest_hoehle -title "Gurgeltest Höhle" -entrance 6
+  input gurgeltest_hoehle-1p.th2
+  input gurgeltest_hoehle-1s.th2
+
+  map m-all-p -projection plan
+    gurgeltest_hoehle-1p
+  endmap
+
+  map m-all-e -projection extended
+    gurgeltest_hoehle-1s
+  endmap
 
   centerline
-    date 2021.07.14 
-    team "Tanguy Racine" 
+    date 2021.07.14
+    team "Tanguy Racine"
     team "Thomas Weigner"
+
+    explo-team "Tanguy Racine"
+    explo-team "Thomas Weigner"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

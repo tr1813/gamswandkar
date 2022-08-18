@@ -1,11 +1,23 @@
 encoding utf-8
 ##XTHERION## xth_me_area_adjust -962.6 -937.8 421.3 3.8
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {-1256.30 1 1.0} {-1231.50 0} rampage-halle-1s.xvi 0 {}
 
 # 2021.07.25 created by TopoDroid v. 5.1.40
 
 scrap rampage_halle-1s -projection extended -scale [0 0 39.3701 0 0 0 1 0 m]
+
+point 196.85 -236.22 station-name -scale xs -text "0"
+point -31.53 -376.77 station-name -scale xs -text "1"
+point -236.01 -552.08 station-name -scale xs -text "2"
+point -488.21 -689.37 station-name -scale xs -text "3"
+point -653.51 -564.10 station-name -scale xs -text "4"
+point -719.16 -775.13 station-name -scale xs -text "5"
+point -816.49 -793.75 station-name -scale xs -text "6"
+point -584.35 -716.98 station-name -scale xs -text "7"
+point -431.41 -660.67 station-name -scale xs -text "8"
+point -303.72 -750.02 station-name -scale xs -text "9"
+point -241.03 -758.65 station-name -scale xs -text "10"
+point -150.01 -758.12 station-name -scale xs -text "11"
 
 line wall
   121.88 -134.34

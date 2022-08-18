@@ -1,6 +1,6 @@
 # 2021.07.13 created by TopoDroid v 5.1.40
 
-survey hohes_delta_hoehle -title "Hohes-Delta-Hoehle"
+survey hohes_delta_hoehle -title "Hohes-Delta-Hoehle" -entrance 0
     # calibration cave
 
   input hohes_delta_hoehle-1p.th2
